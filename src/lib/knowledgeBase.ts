@@ -36,19 +36,31 @@ function getRandomElement<T>(arr: T[]): T {
     return arr[Math.floor(Math.random() * arr.length)];
 }
 
-// Get time-based greeting
-function getTimeBasedGreeting(): string {
+// Get time-based greeting with language support
+function getTimeBasedGreeting(language: Language = 'en'): string {
     const hour = new Date().getHours();
-    const greetings = knowledgeBase.humanResponses.greetings;
+    const greetings = knowledgeBase.humanResponses.greetings as Record<string, string[]>;
 
+    let timeKey = 'general';
     if (hour >= 5 && hour < 12) {
-        return getRandomElement(greetings.morning);
+        timeKey = 'morning';
     } else if (hour >= 12 && hour < 17) {
-        return getRandomElement(greetings.afternoon);
+        timeKey = 'afternoon';
     } else if (hour >= 17 && hour < 21) {
-        return getRandomElement(greetings.evening);
+        timeKey = 'evening';
     }
-    return getRandomElement(greetings.general);
+
+    // Determine the correct greeting array based on language
+    let greetingKey = timeKey;
+    if (language === 'ml') {
+        greetingKey = timeKey + 'Malayalam';
+    } else if (language === 'manglish') {
+        greetingKey = timeKey + 'Manglish';
+    }
+
+    // Fall back to default if specific language version doesn't exist
+    const greetingArray = greetings[greetingKey] || greetings[timeKey] || greetings.general;
+    return getRandomElement(greetingArray);
 }
 
 // Make response human-like with natural conversational flow
@@ -465,109 +477,168 @@ function searchLocations(query: string): CampusLocation | null {
     return findLocation(query);
 }
 
-// Search Q&A Database for matching patterns - generates NATURAL responses, not key-value dumps
+// Helper: Extract important words from a query (removes common words)
+function extractKeywords(text: string): string[] {
+    const stopWords = new Set([
+        'is', 'the', 'a', 'an', 'of', 'to', 'in', 'for', 'and', 'or', 'on', 'at', 'by',
+        'what', 'how', 'where', 'when', 'who', 'which', 'why', 'can', 'do', 'does',
+        'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had',
+        'tell', 'me', 'about', 'please', 'give', 'show', 'i', 'want', 'know', 'need',
+        'എന്ത്', 'ആണ്', 'ഉണ്ട്', 'ഉണ്ടോ', 'എവിടെ', 'എങ്ങനെ', 'ആര്', 'ആരാണ്',
+        'enthu', 'aanu', 'undu', 'undo', 'evide', 'engane', 'aaru', 'aaranu', 'ethra'
+    ]);
+
+    return text.toLowerCase()
+        .replace(/[?!.,;:'\"()]/g, '')
+        .split(/\s+/)
+        .filter(word => word.length > 2 && !stopWords.has(word));
+}
+
+// Helper: Calculate match score between query and entry
+function calculateMatchScore(query: string, entry: QAEntry): number {
+    const queryLower = query.toLowerCase();
+    const queryKeywords = extractKeywords(query);
+    let score = 0;
+
+    // Check patterns - HIGHEST PRIORITY
+    for (const pattern of entry.question_patterns) {
+        const patternLower = pattern.toLowerCase();
+
+        // Exact match
+        if (queryLower === patternLower) {
+            return 100;
+        }
+
+        // Query contains full pattern
+        if (queryLower.includes(patternLower)) {
+            score = Math.max(score, 80);
+        }
+
+        // Pattern contains query
+        if (patternLower.includes(queryLower) && queryLower.length > 3) {
+            score = Math.max(score, 70);
+        }
+
+        // Word overlap matching
+        const patternKeywords = extractKeywords(pattern);
+        const matchingWords = queryKeywords.filter(qw =>
+            patternKeywords.some(pw => pw.includes(qw) || qw.includes(pw))
+        );
+        if (matchingWords.length > 0) {
+            const wordScore = (matchingWords.length / Math.max(queryKeywords.length, 1)) * 60;
+            score = Math.max(score, wordScore);
+        }
+    }
+
+    // Check tags - MEDIUM PRIORITY
+    for (const tag of entry.tags) {
+        const tagLower = tag.toLowerCase();
+
+        if (queryLower.includes(tagLower)) {
+            score = Math.max(score, 50);
+        }
+
+        if (queryKeywords.some(kw => tagLower.includes(kw) || kw.includes(tagLower))) {
+            score = Math.max(score, 40);
+        }
+    }
+
+    // Check answer_facts keys - LOW PRIORITY (helps with "what is X" queries)
+    const factKeys = Object.keys(entry.answer_facts);
+    for (const key of factKeys) {
+        const keyLower = key.toLowerCase();
+        if (queryKeywords.some(kw => keyLower.includes(kw))) {
+            score = Math.max(score, 30);
+        }
+    }
+
+    return score;
+}
+
+// Search Q&A Database with improved matching
 function searchQADatabase(query: string, language: Language): SearchResult | null {
     const queryLower = query.toLowerCase();
 
+    // Find best matching entry using scoring
+    let bestMatch: QAEntry | null = null;
+    let bestScore = 0;
+
     for (const entry of qaDatabase) {
-        // Check if query matches any pattern
-        for (const pattern of entry.question_patterns) {
-            if (queryLower.includes(pattern.toLowerCase()) || pattern.toLowerCase().includes(queryLower)) {
-                const facts = entry.answer_facts;
+        const score = calculateMatchScore(query, entry);
+        if (score > bestScore) {
+            bestScore = score;
+            bestMatch = entry;
+        }
+    }
 
-                // Handle special Response arrays (for greetings, thanks, etc.)
-                if (facts.Response && Array.isArray(facts.Response)) {
-                    const responses = facts.Response as string[];
-                    const response = language === 'ml'
-                        ? responses.find(r => /[\u0D00-\u0D7F]/.test(r)) || responses[0]
-                        : responses[0];
-                    return {
-                        content: response,
-                        category: entry.tags[0] || 'general',
-                        confidence: 0.95,
-                        source: 'qa_database'
-                    };
-                }
+    // Need at least 30% match to return
+    if (!bestMatch || bestScore < 30) {
+        return null;
+    }
 
-                // Generate NATURAL response based on what was asked - not key-value dump
-                // Extract the most relevant fact based on the query
-                const factEntries = Object.entries(facts);
+    const facts = bestMatch.answer_facts;
 
-                // For simple questions like "principal name", only return the specific answer
-                if (queryLower.includes('name') && facts.Name) {
-                    return {
-                        content: `${facts.Name}`,
-                        category: entry.tags[0] || 'general',
-                        confidence: 0.95,
-                        source: 'qa_database'
-                    };
-                }
-                if (queryLower.includes('phone') || queryLower.includes('number') || queryLower.includes('call')) {
-                    const phone = facts.Phone || facts['Phone'];
-                    if (phone) {
-                        return {
-                            content: `${phone}`,
-                            category: entry.tags[0] || 'general',
-                            confidence: 0.95,
-                            source: 'qa_database'
-                        };
-                    }
-                }
-                if (queryLower.includes('email')) {
-                    const email = facts.Email || facts['Email'];
-                    if (email) {
-                        return {
-                            content: `${email}`,
-                            category: entry.tags[0] || 'general',
-                            confidence: 0.95,
-                            source: 'qa_database'
-                        };
-                    }
-                }
+    // Handle special Response arrays (for greetings, thanks, etc.)
+    if (facts.Response && Array.isArray(facts.Response)) {
+        const responses = facts.Response as string[];
+        let response: string;
 
-                // For broader questions, return just the first/main fact naturally
-                if (factEntries.length > 0) {
-                    const [_firstKey, firstValue] = factEntries[0];
-                    if (typeof firstValue === 'string') {
-                        return {
-                            content: firstValue,
-                            category: entry.tags[0] || 'general',
-                            confidence: 0.85,
-                            source: 'qa_database'
-                        };
-                    }
-                }
-            }
+        if (language === 'ml') {
+            response = responses.find(r => /[\u0D00-\u0D7F]/.test(r)) || responses[0];
+        } else if (language === 'manglish') {
+            response = responses.find(r => !(/[\u0D00-\u0D7F]/.test(r))) || responses[0];
+        } else {
+            response = responses[0];
         }
 
-        // Also check tags
-        for (const tag of entry.tags) {
-            if (queryLower.includes(tag.toLowerCase())) {
-                const facts = entry.answer_facts;
-                if (facts.Response && Array.isArray(facts.Response)) {
-                    const responses = facts.Response as string[];
-                    return {
-                        content: responses[0],
-                        category: tag,
-                        confidence: 0.8,
-                        source: 'qa_database'
-                    };
-                }
+        return {
+            content: response,
+            category: bestMatch.tags[0] || 'general',
+            confidence: bestScore / 100,
+            source: 'qa_database'
+        };
+    }
 
-                // Return first fact value only, not all
-                const factEntries = Object.entries(facts);
-                if (factEntries.length > 0) {
-                    const [, firstValue] = factEntries[0];
-                    if (typeof firstValue === 'string') {
-                        return {
-                            content: firstValue,
-                            category: tag,
-                            confidence: 0.75,
-                            source: 'qa_database'
-                        };
-                    }
-                }
-            }
+    // For specific field queries
+    if (queryLower.includes('name') && facts.Name) {
+        return {
+            content: `${facts.Name}`,
+            category: bestMatch.tags[0] || 'general',
+            confidence: bestScore / 100,
+            source: 'qa_database'
+        };
+    }
+    if ((queryLower.includes('phone') || queryLower.includes('number') || queryLower.includes('call')) && facts.Phone) {
+        return {
+            content: `${facts.Phone}`,
+            category: bestMatch.tags[0] || 'general',
+            confidence: bestScore / 100,
+            source: 'qa_database'
+        };
+    }
+    if (queryLower.includes('email') && facts.Email) {
+        return {
+            content: `${facts.Email}`,
+            category: bestMatch.tags[0] || 'general',
+            confidence: bestScore / 100,
+            source: 'qa_database'
+        };
+    }
+
+    // Return all facts as context for AI to generate natural response
+    const factEntries = Object.entries(facts);
+    if (factEntries.length > 0) {
+        const contextParts = factEntries
+            .filter(([_, value]) => typeof value === 'string')
+            .map(([key, value]) => `${key}: ${value}`);
+
+        if (contextParts.length > 0) {
+            return {
+                content: contextParts.join('\n'),
+                category: bestMatch.tags[0] || 'general',
+                confidence: bestScore / 100,
+                source: 'qa_database'
+            };
         }
     }
 
@@ -576,11 +647,15 @@ function searchQADatabase(query: string, language: Language): SearchResult | nul
 
 // Main search function
 export function searchKnowledgeBase(query: string, language: Language = 'en'): SearchResult {
-    // Check for greetings
-    const greetingPatterns = ['hi', 'hello', 'hey', 'namaste', 'good morning', 'good afternoon', 'good evening'];
+    // Check for greetings - including Malayalam patterns
+    const greetingPatterns = [
+        'hi', 'hello', 'hey', 'namaste', 'good morning', 'good afternoon', 'good evening',
+        'ഹലോ', 'ഹായ്', 'നമസ്കാരം', 'സുപ്രഭാതം', 'ശുഭ ഉച്ച', 'ശുഭ സായാഹ്നം',
+        'namaskaram', 'suprabhatham', 'sugham', 'sughamano'
+    ];
     if (greetingPatterns.some(g => query.toLowerCase().startsWith(g) || query.toLowerCase() === g)) {
         return {
-            content: getTimeBasedGreeting(),
+            content: getTimeBasedGreeting(language),
             category: 'greeting',
             confidence: 1.0,
             source: 'faq'
@@ -642,9 +717,18 @@ export function searchKnowledgeBase(query: string, language: Language = 'en'): S
         };
     }
 
-    // Fallback response
+    // Fallback response - language aware
+    const humanResponses = knowledgeBase.humanResponses as unknown as Record<string, string[]>;
+    let notFoundKey = 'notFound';
+    if (language === 'ml') {
+        notFoundKey = 'notFoundMalayalam';
+    } else if (language === 'manglish') {
+        notFoundKey = 'notFoundManglish';
+    }
+    const notFoundResponses = humanResponses[notFoundKey] || humanResponses.notFound;
+
     return {
-        content: getRandomElement(knowledgeBase.humanResponses.notFound),
+        content: getRandomElement(notFoundResponses),
         category: 'unknown',
         confidence: 0,
         source: 'faq'

@@ -1329,18 +1329,52 @@
         "Good morning! Welcome to LBS College of Engineering. How can I help you today?",
         "Morning! Great to have you here. What would you like to know about our college?"
       ],
+      "morningMalayalam": [
+        "സുപ്രഭാതം! LBS കോളേജ് ഓഫ് എഞ്ചിനീയറിംഗിലേക്ക് സ്വാഗതം. ഇന്ന് ഞാൻ എങ്ങനെ സഹായിക്കാം?",
+        "സുപ്രഭാതം! നിങ്ങൾ ഇവിടെ വന്നതിൽ സന്തോഷം. കോളേജിനെ കുറിച്ച് എന്താണ് അറിയേണ്ടത്?"
+      ],
+      "morningManglish": [
+        "Suprabhatham! LBS College il ninnum swaagatham. Innu njan engane help cheyyam?",
+        "Good morning! Ningal vannathu nallath. College ne kurichu enthu ariyendath?"
+      ],
       "afternoon": [
         "Good afternoon! I'm here to help you with any questions about LBS College.",
         "Hello! How can I assist you this afternoon?"
+      ],
+      "afternoonMalayalam": [
+        "ശുഭ ഉച്ച! LBS കോളേജിനെ കുറിച്ചുള്ള ചോദ്യങ്ങൾക്ക് സഹായിക്കാൻ ഞാൻ ഇവിടെയുണ്ട്.",
+        "ഹലോ! ഈ ഉച്ചക്ക് ഞാൻ എങ്ങനെ സഹായിക്കട്ടെ?"
+      ],
+      "afternoonManglish": [
+        "Good afternoon! LBS College ne kurichu chodyangal chodhikkam.",
+        "Hello! Ee uchakku njan engane help cheyyatte?"
       ],
       "evening": [
         "Good evening! Welcome! Feel free to ask me anything about our college.",
         "Evening! What can I help you with today?"
       ],
+      "eveningMalayalam": [
+        "ശുഭ സായാഹ്നം! സ്വാഗതം! കോളേജിനെ കുറിച്ച് എന്തും ചോദിക്കാം.",
+        "ശുഭ സായാഹ്നം! ഇന്ന് ഞാൻ എങ്ങനെ സഹായിക്കാം?"
+      ],
+      "eveningManglish": [
+        "Good evening! Swaagatham! College ne kurichu enthu chodyichaalum chodyikkam.",
+        "Evening! Innu njan engane help cheyyam?"
+      ],
       "general": [
         "Hello! Welcome to LBS College of Engineering assistant. How may I help you?",
         "Hi there! I'd be happy to help you with information about our college.",
         "Namaste! What would you like to know about LBS College of Engineering?"
+      ],
+      "generalMalayalam": [
+        "ഹലോ! LBS കോളേജ് അസിസ്റ്റന്റിലേക്ക് സ്വാഗതം. ഞാൻ എങ്ങനെ സഹായിക്കാം?",
+        "നമസ്കാരം! കോളേജിനെ കുറിച്ച് വിവരങ്ങൾ നൽകാൻ ഞാൻ സന്തോഷമാണ്.",
+        "ഹായ്! LBS കോളേജിനെ കുറിച്ച് എന്താണ് അറിയേണ്ടത്?"
+      ],
+      "generalManglish": [
+        "Hello! LBS College assistant ilekku swaagatham. Njan engane help cheyyam?",
+        "Namaskaram! College ne kurichu information tharanam ennu santhosham.",
+        "Hi! LBS College ne kurichu enthu ariyendath?"
       ]
     },
     "closing": [
@@ -1349,15 +1383,47 @@
       "Let me know if you need any other information.",
       "Happy to help with anything else!"
     ],
+    "closingMalayalam": [
+      "കൂടുതൽ എന്തെങ്കിലും അറിയണോ?",
+      "കൂടുതൽ ചോദ്യങ്ങൾ ഉണ്ടെങ്കിൽ ചോദിക്കാം!",
+      "മറ്റ് വിവരങ്ങൾ വേണമെങ്കിൽ പറയൂ.",
+      "സഹായിക്കാൻ സന്തോഷം!"
+    ],
+    "closingManglish": [
+      "Koode enthenkilum ariyano?",
+      "Koode chodyangal undenkil chodyikkam!",
+      "Mattu vivarangal venamenkil parayoo.",
+      "Help cheyyaan santhosham!"
+    ],
     "notFound": [
       "I'm not 100% sure about that specific detail. Let me suggest you contact our office at 04994-250790 for accurate information.",
       "That's a great question! For the most up-to-date info on this, I'd recommend calling our admission cell at 04994-250792.",
       "I want to make sure you get accurate information. Could you try contacting us at lbscek@gmail.com for this specific query?"
     ],
+    "notFoundMalayalam": [
+      "ആ പ്രത്യേക വിവരം എനിക്ക് 100% ഉറപ്പില്ല. കൃത്യമായ വിവരത്തിന് 04994-250790 ൽ ഓഫീസുമായി ബന്ധപ്പെടുക.",
+      "നല്ല ചോദ്യം! അപ്ഡേറ്റഡ് വിവരത്തിന് 04994-250792 ൽ അഡ്മിഷൻ സെല്ലിലേക്ക് വിളിക്കുക.",
+      "കൃത്യമായ വിവരം ലഭിക്കാൻ lbscek@gmail.com ലേക്ക് ഇമെയിൽ ചെയ്യൂ."
+    ],
+    "notFoundManglish": [
+      "Aa specific detail enikku 100% ariyilla. Correct info nu 04994-250790 il office il vilikku.",
+      "Nalla chodyam! Updated info nu 04994-250792 il admission cell il vilikku.",
+      "Correct aayi ariyaan lbscek@gmail.com ilekku email cheyyu."
+    ],
     "confirmation": [
       "Got it! Let me find that information for you.",
       "Sure thing! Here's what I know about that.",
       "Great question! Here's the information you need."
+    ],
+    "confirmationMalayalam": [
+      "ശരി! ആ വിവരം കണ്ടെത്താം.",
+      "തീർച്ചയായും! ഇതാ എനിക്ക് അറിയുന്നത്.",
+      "നല്ല ചോദ്യം! ഇതാ നിങ്ങൾക്ക് വേണ്ട വിവരം."
+    ],
+    "confirmationManglish": [
+      "Sheri! Aa information kandethaam.",
+      "Theerchayayum! Ithaa enikku ariyunnath.",
+      "Nalla chodyam! Ithaa ningalkku venda information."
     ]
   },
   "clubs": [

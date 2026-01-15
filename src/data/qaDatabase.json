@@ -1442,5 +1442,726 @@
             "Location": "Near Fluid Mechanics Lab along LBS Ground Road",
             "Programs": "MCA and other PG courses"
         }
+    },
+    {
+        "id": 51,
+        "question_patterns": [
+            "CSE HOD",
+            "HOD of CSE",
+            "HOD CSE",
+            "computer science HOD",
+            "CSE head of department",
+            "cse hod aaranu",
+            "cse hod peru",
+            "cse hod name",
+            "who is CSE HOD",
+            "hod name in cse",
+            "cse department head",
+            "CSE HOD ആര്",
+            "സിഎസ്ഇ എച്ച്ഒഡി",
+            "കമ്പ്യൂട്ടർ സയൻസ് HOD"
+        ],
+        "tags": [
+            "hod",
+            "cse",
+            "computer science",
+            "department",
+            "faculty"
+        ],
+        "answer_facts": {
+            "Name": "Dr. Manoj Kumar G",
+            "Designation": "Professor & HOD",
+            "Department": "Computer Science & Engineering (CSE)",
+            "Email": "hod.cse@lbscek.ac.in",
+            "Phone": "04994-250795"
+        }
+    },
+    {
+        "id": 52,
+        "question_patterns": [
+            "ECE HOD",
+            "HOD of ECE",
+            "HOD ECE",
+            "electronics HOD",
+            "ECE head of department",
+            "ece hod aaranu",
+            "ece hod peru",
+            "ece hod name",
+            "who is ECE HOD",
+            "hod name in ece",
+            "electronics department head",
+            "ECE HOD ആര്",
+            "ഇസിഇ എച്ച്ഒഡി"
+        ],
+        "tags": [
+            "hod",
+            "ece",
+            "electronics",
+            "department",
+            "faculty"
+        ],
+        "answer_facts": {
+            "Name": "Dr. Suresh Babu S",
+            "Designation": "Professor & HOD",
+            "Department": "Electronics & Communication Engineering (ECE)",
+            "Email": "hod.ece@lbscek.ac.in",
+            "Phone": "04994-250796"
+        }
+    },
+    {
+        "id": 53,
+        "question_patterns": [
+            "EEE HOD",
+            "HOD of EEE",
+            "HOD EEE",
+            "electrical HOD",
+            "EEE head of department",
+            "eee hod aaranu",
+            "eee hod peru",
+            "eee hod name",
+            "who is EEE HOD",
+            "hod name in eee",
+            "electrical department head",
+            "EEE HOD ആര്",
+            "ഇഇഇ എച്ച്ഒഡി"
+        ],
+        "tags": [
+            "hod",
+            "eee",
+            "electrical",
+            "department",
+            "faculty"
+        ],
+        "answer_facts": {
+            "Name": "Dr. Santhosh Kumar K",
+            "Designation": "Associate Professor & HOD",
+            "Department": "Electrical & Electronics Engineering (EEE)",
+            "Email": "hod.eee@lbscek.ac.in",
+            "Phone": "04994-250797"
+        }
+    },
+    {
+        "id": 54,
+        "question_patterns": [
+            "ME HOD",
+            "HOD of ME",
+            "HOD ME",
+            "mechanical HOD",
+            "ME head of department",
+            "mech hod aaranu",
+            "mech hod peru",
+            "mech hod name",
+            "who is mechanical HOD",
+            "hod name in mechanical",
+            "mechanical department head",
+            "ME HOD ആര്",
+            "മെക്കാനിക്കൽ എച്ച്ഒഡി"
+        ],
+        "tags": [
+            "hod",
+            "me",
+            "mechanical",
+            "department",
+            "faculty"
+        ],
+        "answer_facts": {
+            "Name": "Dr. Rajeesh K",
+            "Designation": "Associate Professor & HOD",
+            "Department": "Mechanical Engineering (ME)",
+            "Email": "hod.me@lbscek.ac.in",
+            "Phone": "04994-250798"
+        }
+    },
+    {
+        "id": 55,
+        "question_patterns": [
+            "CE HOD",
+            "HOD of CE",
+            "HOD CE",
+            "civil HOD",
+            "CE head of department",
+            "civil hod aaranu",
+            "civil hod peru",
+            "civil hod name",
+            "who is civil HOD",
+            "hod name in civil",
+            "civil department head",
+            "CE HOD ആര്",
+            "സിവിൽ എച്ച്ഒഡി"
+        ],
+        "tags": [
+            "hod",
+            "ce",
+            "civil",
+            "department",
+            "faculty"
+        ],
+        "answer_facts": {
+            "Name": "Dr. Ajesh K Abraham",
+            "Designation": "Associate Professor & HOD",
+            "Department": "Civil Engineering (CE)",
+            "Email": "hod.ce@lbscek.ac.in",
+            "Phone": "04994-250799"
+        }
+    },
+    {
+        "id": 56,
+        "question_patterns": [
+            "IT HOD",
+            "HOD of IT",
+            "HOD IT",
+            "information technology HOD",
+            "IT head of department",
+            "it hod aaranu",
+            "it hod peru",
+            "it hod name",
+            "who is IT HOD",
+            "hod name in it",
+            "IT department head",
+            "IT HOD ആര്",
+            "ഐടി എച്ച്ഒഡി"
+        ],
+        "tags": [
+            "hod",
+            "it",
+            "information technology",
+            "department",
+            "faculty"
+        ],
+        "answer_facts": {
+            "Name": "Dr. Anver S R",
+            "Designation": "Professor & HOD",
+            "Department": "Information Technology (IT)",
+            "Email": "hod.it@lbscek.ac.in",
+            "Phone": "04994-250800"
+        }
+    },
+    {
+        "id": 57,
+        "question_patterns": [
+            "Dean Academic",
+            "Academic Dean",
+            "Dean of Academics",
+            "who is academic dean",
+            "dean academic name",
+            "academic dean name",
+            "academic dean aara",
+            "academic dean peru",
+            "ഡീൻ അക്കാദമിക്",
+            "അക്കാദമിക് ഡീൻ"
+        ],
+        "tags": [
+            "dean",
+            "academic",
+            "administration",
+            "faculty"
+        ],
+        "answer_facts": {
+            "Name": "Dr. Praveen Kumar K",
+            "Designation": "Dean (Academic) & Professor",
+            "Department": "Computer Science & Engineering",
+            "Role": "Responsible for all academic matters, curriculum, and examinations"
+        }
+    },
+    {
+        "id": 58,
+        "question_patterns": [
+            "Dean Student Affairs",
+            "Student Affairs Dean",
+            "Dean of Students",
+            "who is student affairs dean",
+            "student dean name",
+            "dean student affairs name",
+            "student affairs dean aara",
+            "student affairs dean peru",
+            "ഡീൻ സ്റ്റുഡന്റ് അഫയേഴ്‌സ്"
+        ],
+        "tags": [
+            "dean",
+            "student affairs",
+            "administration",
+            "faculty"
+        ],
+        "answer_facts": {
+            "Name": "Dr. Vinodu George",
+            "Designation": "Dean (Student Affairs) & Professor",
+            "Department": "Computer Science & Engineering",
+            "Role": "Responsible for student welfare, discipline, and extracurricular activities"
+        }
+    },
+    {
+        "id": 59,
+        "question_patterns": [
+            "Administrative Officer",
+            "AO name",
+            "who is the AO",
+            "admin officer",
+            "administrative officer name",
+            "AO aara",
+            "AO peru",
+            "അഡ്മിനിസ്ട്രേറ്റീവ് ഓഫീസർ",
+            "എ‍‍ഓ ആരാണ്"
+        ],
+        "tags": [
+            "administration",
+            "officer",
+            "staff",
+            "ao",
+            "അഡ്മിനിസ്ട്രേഷൻ",
+            "ഓഫീസർ"
+        ],
+        "answer_facts": {
+            "Name": "Mr. Ajesh S",
+            "Designation": "Administrative Officer",
+            "Role": "Head of Administrative Section",
+            "Office": "Administrative Block"
+        }
+    },
+    {
+        "id": 60,
+        "question_patterns": [
+            "Senior Superintendent",
+            "SS name",
+            "who is the SS",
+            "senior superintendent name",
+            "SS aara",
+            "SS peru",
+            "സീനിയർ സൂപ്രണ്ട്"
+        ],
+        "tags": [
+            "administration",
+            "staff",
+            "ss",
+            "സൂപ്രണ്ട്"
+        ],
+        "answer_facts": {
+            "Name": "Mr. Santhosh Kumar K",
+            "Designation": "Senior Superintendent",
+            "Office": "Administrative Office"
+        }
+    },
+    {
+        "id": 61,
+        "question_patterns": [
+            "Head Accountant",
+            "HA name",
+            "who is the HA",
+            "head accountant name",
+            "HA aara",
+            "HA peru",
+            "ഹെഡ് അക്കൗണ്ടന്റ്"
+        ],
+        "tags": [
+            "administration",
+            "accounts",
+            "staff",
+            "ha",
+            "അക്കൗണ്ടന്റ്"
+        ],
+        "answer_facts": {
+            "Name": "Mr. Aneesh Mohan C S",
+            "Designation": "Head Accountant",
+            "Office": "Accounts Section"
+        }
+    },
+    {
+        "id": 62,
+        "question_patterns": [
+            "Chairman of BOG",
+            "Board of Governors Chairman",
+            "BOG Chairman",
+            "chairman aara",
+            "bog chairman peru",
+            "ബോർഡ് ചെയർമാൻ"
+        ],
+        "tags": [
+            "administration",
+            "governing body",
+            "bog",
+            "ചെയർമാൻ"
+        ],
+        "answer_facts": {
+            "Name": "Prof. M. Thamban Nair",
+            "Designation": "Chairman, Board of Governors",
+            "Role": "Leading the strategic direction of the college"
+        }
+    },
+    {
+        "id": 63,
+        "question_patterns": [
+            "PTA President",
+            "Parent Teacher Association President",
+            "PTA Vice President",
+            "PTA Secretary",
+            "pta president aara",
+            "pta secretary aara",
+            "പിടിഎ പ്രസിഡന്റ്"
+        ],
+        "tags": [
+            "administration",
+            "pta",
+            "association",
+            "പിടിഎ"
+        ],
+        "answer_facts": {
+            "President": "Dr. Mohammad Sekoor T (Principal)",
+            "Vice President": "To be updated",
+            "Secretary": "Faculty member nominated by Principal"
+        }
+    },
+    {
+        "id": 64,
+        "question_patterns": [
+            "College Senate",
+            "Senate Chairman",
+            "Student Union Chairman",
+            "senate chairman aara",
+            "union chairman aara",
+            "കോളേജ് സെനറ്റ്",
+            "യൂണിയൻ ചെയർമാൻ"
+        ],
+        "tags": [
+            "administration",
+            "student union",
+            "senate",
+            "യൂണിയൻ"
+        ],
+        "answer_facts": {
+            "Chairman": "Dr. Mohammad Sekoor T (Principal)",
+            "Staff Advisor": "Faculty member appointed by Principal",
+            "Student Chairman": "Elected Student Representative"
+        }
+    },
+    {
+        "id": 65,
+        "question_patterns": [
+            "B.Tech Government Quota Fee",
+            "Merit seat fee",
+            "Government quota fee structure",
+            "govt quota fee ethra",
+            "merit seat fee ethra",
+            "സർക്കാർ ക്വാട്ട ഫീസ്"
+        ],
+        "tags": [
+            "fees",
+            "btech",
+            "government quota",
+            "merit",
+            "ഫീസ്",
+            "സർക്കാർ"
+        ],
+        "answer_facts": {
+            "Tuition Fee": "₹35,000 per year",
+            "Special Fee": "₹5,000 per year",
+            "Total Fee": "₹40,000 per year",
+            "One-time Fee": "Caution Deposit: ₹5,000 (Refundable), Admission Fee: ₹500",
+            "Note": "Fees subject to government orders"
+        }
+    },
+    {
+        "id": 66,
+        "question_patterns": [
+            "Management Quota Fee",
+            "B.Tech Management fee",
+            "management seat fee ethra",
+            "management quota fee structure",
+            "മാനേജ്മെന്റ് സീറ്റ് ഫീസ്"
+        ],
+        "tags": [
+            "fees",
+            "btech",
+            "management quota",
+            "ഫീസ്",
+            "മാനേജ്മെന്റ്"
+        ],
+        "answer_facts": {
+            "Tuition Fee": "₹65,000 per year",
+            "Special Fee": "₹5,000 per year",
+            "Total Fee": "₹70,000 per year",
+            "One-time Fee": "Caution Deposit: ₹5,000 (Refundable)",
+            "Note": "Fees subject to government orders"
+        }
+    },
+    {
+        "id": 67,
+        "question_patterns": [
+            "NRI Quota Fee",
+            "NRI seat fee",
+            "nri fee structure",
+            "nri seat fees ethra",
+            "എൻആർഐ സീറ്റ് ഫീസ്"
+        ],
+        "tags": [
+            "fees",
+            "btech",
+            "nri quota",
+            "ഫീസ്",
+            "എൻആർഐ"
+        ],
+        "answer_facts": {
+            "Tuition Fee": "₹1,00,000 per year",
+            "Special Fee": "₹5,000 per year",
+            "Total Fee": "₹1,05,000 per year",
+            "One-time Fee": "Caution Deposit: ₹5,000 (Refundable)"
+        }
+    },
+    {
+        "id": 68,
+        "question_patterns": [
+            "M.Tech Fee",
+            "MTech fee structure",
+            "PG fee",
+            "mtech fees ethra",
+            "എംടെക് ഫീസ്"
+        ],
+        "tags": [
+            "fees",
+            "mtech",
+            "pg",
+            "ഫീസ്",
+            "എംടെക്"
+        ],
+        "answer_facts": {
+            "Tuition Fee": "₹50,000 per year",
+            "Stipend": "GATE qualified students receive AICTE stipend of ₹12,400/month",
+            "Scholarships": "Available for eligible students"
+        }
+    },
+    {
+        "id": 69,
+        "question_patterns": [
+            "MCA Fee",
+            "MCA fee structure",
+            "mca fees ethra",
+            "എംസിഎ ഫീസ്"
+        ],
+        "tags": [
+            "fees",
+            "mca",
+            "pg",
+            "ഫീസ്",
+            "എംസിഎ"
+        ],
+        "answer_facts": {
+            "Total Fee": "₹45,000 per year",
+            "Examination Fee": "As per University norms",
+            "Caution Deposit": "Refundable deposit applicable"
+        }
+    },
+    {
+        "id": 70,
+        "question_patterns": [
+            "Hostel Fees",
+            "Hostel rent",
+            "Mess fees",
+            "hostel fee ethra",
+            "mess fee ethra",
+            "ഹോസ്റ്റൽ ഫീസ്"
+        ],
+        "tags": [
+            "fees",
+            "hostel",
+            "mess",
+            "ഫീസ്",
+            "ഹോസ്റ്റൽ",
+            "മെസ്"
+        ],
+        "answer_facts": {
+            "Room Rent": "₹15,000 per year",
+            "Mess Fee": "Approximately ₹20,000 per year (Dividing system)",
+            "Total": "Approximately ₹35,000 per year",
+            "Deposit": "Mess advance required at admission",
+            "Establishment Fee": "Included in rent"
+        }
+    },
+    {
+        "id": 71,
+        "question_patterns": [
+            "Fab Lab facilities",
+            "3D printing",
+            "What is Fab Lab?",
+            "fab lab undo",
+            "3d printer undu",
+            "ഫാബ് ലാബ്"
+        ],
+        "tags": [
+            "facilities",
+            "fab lab",
+            "innovation",
+            "ഫാബ് ലാബ്",
+            "സൗകര്യം"
+        ],
+        "answer_facts": {
+            "Facilities": "3D Printers, Laser Cutters, CNC Machines, Vinyl Cutters",
+            "Purpose": "Digital Fabrication and Prototyping",
+            "Access": "Open to students for project work and innovation",
+            "Location": "Workshop Block"
+        }
+    },
+    {
+        "id": 72,
+        "question_patterns": [
+            "Gym facilities",
+            "Fitness center",
+            "gym undo",
+            "gym fees ethra",
+            "ജിം",
+            "വ്യായാമം"
+        ],
+        "tags": [
+            "facilities",
+            "sports",
+            "gym",
+            "ജിം",
+            "വ്യായാമം"
+        ],
+        "answer_facts": {
+            "Facilities": "Multi-station gym, treadmills, free weights, cardio equipment",
+            "Trainer": "Professional trainer available",
+            "Timings": "Morning: 6:00 AM - 8:00 AM, Evening: 4:30 PM - 7:30 PM",
+            "Fees": "Nominal monthly fee for maintenance"
+        }
+    },
+    {
+        "id": 73,
+        "question_patterns": [
+            "Internet speed",
+            "WiFi coverage",
+            "network speed",
+            "internet speed ethra",
+            "wifi password",
+            "വൈഫൈ സ്പീഡ്"
+        ],
+        "tags": [
+            "facilities",
+            "internet",
+            "wifi",
+            "ഇന്റർനെറ്റ്",
+            "വൈഫൈ"
+        ],
+        "answer_facts": {
+            "Speed": "1 Gbps backbone connectivity via NKN",
+            "Coverage": "Campus-wide WiFi including hostels and academic blocks",
+            "Access": "Login credentials provided to all students and staff"
+        }
+    },
+    {
+        "id": 74,
+        "question_patterns": [
+            "Library resources",
+            "How many books?",
+            "Digital library",
+            "library books",
+            "e-journals",
+            "ലൈബ്രറി പുസ്തകങ്ങൾ"
+        ],
+        "tags": [
+            "facilities",
+            "library",
+            "books",
+            "ലൈബ്രറി",
+            "പുസ്തകം"
+        ],
+        "answer_facts": {
+            "Collection": "25,000+ Volumes, 8,000+ Titles",
+            "Digital Resources": "IEEE ASPP, Springer, ASCE, ASME e-journals",
+            "Services": "Book bank, Reference service, Reprography, OPAC",
+            "Timing": "9:00 AM - 6:00 PM (Extended during exams)"
+        }
+    },
+    {
+        "id": 75,
+        "question_patterns": [
+            "Bus Routes",
+            "Transport details",
+            "bus routes evide okke",
+            "bus fee ethra",
+            "ബസ് റൂട്ടുകൾ"
+        ],
+        "tags": [
+            "facilities",
+            "transport",
+            "bus",
+            "ബസ്",
+            "യാത്ര"
+        ],
+        "answer_facts": {
+            "Routes": "Kasaragod, Kanhangad, Uppala, Manjeshwar, Cherkala, Bandadukka",
+            "Fleet": "12 College Buses",
+            "Fee": "Based on distance (Approx. ₹8,000 - ₹10,000 per year)",
+            "Contact": "Bus Secretary/Administrative Officer"
+        }
+    },
+    {
+        "id": 76,
+        "question_patterns": [
+            "Top recruiters",
+            "Companies visiting",
+            "Who recruits?",
+            "companies ethoke",
+            "recruitment undo",
+            "കമ്പനികൾ",
+            "റിക്രൂട്ടർമാർ"
+        ],
+        "tags": [
+            "placement",
+            "recruiters",
+            "companies",
+            "പ്ലേസ്മെന്റ്",
+            "കമ്പനി"
+        ],
+        "answer_facts": {
+            "Top Recruiters": "TCS, Infosys, Wipro, Cognizant, Ust Global, IBS Software, Tech Mahindra",
+            "Core Companies": "L&T Infotech, Quest Global, Bosch",
+            "Banking": "Federal Bank, South Indian Bank"
+        }
+    },
+    {
+        "id": 77,
+        "question_patterns": [
+            "M.Tech Specializations",
+            "MTech courses",
+            "PG courses available",
+            "mtech courses ethoke",
+            "specialization ethoke",
+            "എംടെക് കോഴ്സുകൾ"
+        ],
+        "tags": [
+            "courses",
+            "mtech",
+            "specialization",
+            "എംടെക്",
+            "കോഴ്സ്"
+        ],
+        "answer_facts": {
+            "CSE": "Computer Science and Information Security (18 seats)",
+            "EEE": "Power Electronics and Control (18 seats)",
+            "Duration": "2 Years (4 Semesters)",
+            "Eligibility": "Valid GATE Score + B.Tech in relevant branch"
+        }
+    },
+    {
+        "id": 78,
+        "question_patterns": [
+            "MCA Course details",
+            "MCA availability",
+            "mca undo",
+            "mca seats ethra",
+            "എംസിഎ ഉണ്ടോ"
+        ],
+        "tags": [
+            "courses",
+            "mca",
+            "pg",
+            "എംസിഎ",
+            "കോഴ്സ്"
+        ],
+        "answer_facts": {
+            "Course": "Master of Computer Applications (MCA)",
+            "Duration": "2 Years (4 Semesters)",
+            "Intake": "60 Seats",
+            "Eligibility": "Degree with Mathematics + KMAT/CMAT Score",
+            "Block": "Dedicated PG Block near Fluid Mechanics Lab"
+        }
     }
 ]

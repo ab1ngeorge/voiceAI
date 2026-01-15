@@ -527,7 +527,7 @@ function searchQADatabase(query: string, language: Language): SearchResult | nul
 
                 // For broader questions, return just the first/main fact naturally
                 if (factEntries.length > 0) {
-                    const [firstKey, firstValue] = factEntries[0];
+                    const [_firstKey, firstValue] = factEntries[0];
                     if (typeof firstValue === 'string') {
                         return {
                             content: firstValue,

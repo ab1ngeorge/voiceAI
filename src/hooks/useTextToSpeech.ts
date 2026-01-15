@@ -7,8 +7,21 @@ interface TTSState {
     error: string | null;
 }
 
-// Language code mapping for Sarvam AI
-const getSarvamLanguageCode = (language: Language): string => {
+// Malayalam Unicode regex for content detection
+const MALAYALAM_SCRIPT_REGEX = /[\u0D00-\u0D7F]/;
+
+// Detect if text contains Malayalam script (content-based detection)
+const containsMalayalamScript = (text: string): boolean => {
+    return MALAYALAM_SCRIPT_REGEX.test(text);
+};
+
+// Language code mapping for Sarvam AI - now with content-based override
+const getSarvamLanguageCode = (language: Language, textContent?: string): string => {
+    // Content-based detection takes priority - if text contains Malayalam script, use ml-IN
+    if (textContent && containsMalayalamScript(textContent)) {
+        return 'ml-IN';
+    }
+
     switch (language) {
         case 'ml':
             return 'ml-IN'; // Malayalam
@@ -89,7 +102,7 @@ export function useTextToSpeech(language: Language = 'en') {
                 },
                 body: JSON.stringify({
                     inputs: [cleanText],
-                    target_language_code: getSarvamLanguageCode(language),
+                    target_language_code: getSarvamLanguageCode(language, cleanText),
                     speaker: getSpeaker(language),
                     model: 'bulbul:v2',
                     pitch: 0,

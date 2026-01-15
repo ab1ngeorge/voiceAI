@@ -10,52 +10,90 @@ const MALAYALAM_REGEX = /[\u0D00-\u0D7F]/;
 
 // Common Manglish patterns and words (Malayalam written in English letters)
 const MANGLISH_WORDS = [
-    // Question words
-    'enthu', 'enthanu', 'enthaa', 'ethra', 'evide', 'evidey', 'aaru', 'aaranu',
-    'engane', 'enganey', 'eppo', 'eppol', 'eppozha', 'enthina', 'enthinanu',
-    'peru', 'pera', 'enn', 'ennu', 'enth', // name and common question forms
+    // Question words - extensive list
+    'enthu', 'enthanu', 'enthaa', 'entha', 'ethra', 'evide', 'evidey', 'evdey',
+    'aaru', 'aaranu', 'aar', 'engane', 'enganey', 'eppo', 'eppol', 'eppozha',
+    'enthina', 'enthinanu', 'enthinu', 'peru', 'pera', 'enn', 'ennu', 'enth',
+    'enthokke', 'evidokke', 'aarokke', 'enganeya', 'enthaya',
 
     // Common greetings and phrases
-    'namaskaram', 'namaskar', 'sugham', 'sughamano', 'sughamaano',
-    'nanni', 'sthothram', 'nannayittu', 'kollam', 'mathi',
+    'namaskaram', 'namaskar', 'namaste', 'sugham', 'sughamano', 'sughamaano',
+    'nanni', 'sthothram', 'nannayittu', 'kollam', 'mathi', 'sheriyanu',
+    'nalla', 'valare', 'nannaayi', 'superb', 'adipoli', 'pwoli',
 
     // Yes/No words - very common in voice
-    'undu', 'undo', 'illa', 'illaa', 'aanu', 'anu', 'aanallo', 'allallo',
-    'athe', 'athey', 'alle', 'ille', 'und', 'und', 'undoo', 'illaaa',
+    'undu', 'undo', 'undoo', 'illa', 'illaa', 'illaaa', 'aanu', 'anu', 'aan',
+    'aanallo', 'allallo', 'athe', 'athey', 'aathey', 'alle', 'ille', 'und',
+    'sheriya', 'sheri', 'shariya', 'shari', 'okay', 'okey',
 
     // Verbs and common words
-    'parayan', 'parayoo', 'parayamo', 'undakum', 'venam', 'vende', 'vendam',
-    'ariyam', 'ariyilla', 'ariyumo', 'poyi', 'poyallo', 'arinjilla',
-    'nokku', 'nokkoo', 'nokkanam', 'cheyyuka', 'cheyyanam', 'kudeyanu',
-    'kitta', 'kittum', 'kittuo', 'tharam', 'tharao', 'tharanam', 'kittumo',
-    'parayo', 'parayamo', 'parayumo', 'tharo', 'tharumo',
+    'parayan', 'parayoo', 'parayamo', 'parayumo', 'parayo', 'paranju',
+    'undakum', 'venam', 'vende', 'vendam', 'vendaa', 'vendathu',
+    'ariyam', 'ariyilla', 'ariyumo', 'ariyuo', 'arinjilla', 'ariyaamallo',
+    'nokku', 'nokkoo', 'nokkanam', 'nokkam', 'nokkatte',
+    'cheyyuka', 'cheyyanam', 'cheyyam', 'cheyyumo', 'cheythu',
+    'kitta', 'kittum', 'kittuo', 'kittumo', 'kittumoo', 'kittu',
+    'tharam', 'tharao', 'tharanam', 'tharo', 'tharumo', 'tharuo',
+    'poyi', 'poyallo', 'pokum', 'pokumo', 'povum', 'povumo',
+    'varum', 'varuo', 'varumo', 'vannu', 'vaa', 'varoo',
 
     // Pronouns
-    'njan', 'njaan', 'enikk', 'enikku', 'enik', 'nee', 'ningal', 'ningalu',
-    'avan', 'aval', 'avar', 'athil', 'ini', 'athinu', 'ithu', 'athu',
+    'njan', 'njaan', 'naan', 'enikk', 'enikku', 'enik', 'enak',
+    'nee', 'ningal', 'ningalu', 'thaangal', 'thangal',
+    'avan', 'aval', 'avar', 'ivar', 'athil', 'ini', 'athinu', 'ithu', 'athu',
     'namukku', 'nammal', 'njangal', 'nammude', 'ente', 'ninte', 'avante',
+    'avalde', 'ivide', 'angane', 'ingane',
 
-    // College-specific Manglish
-    'collegil', 'colleginte', 'admissionu', 'classil', 'libraryil',
-    'hostelil', 'examinu', 'feeu', 'coursinu', 'semesteril', 'placementu',
-    'principalinte', 'hodinte', 'departmentil', 'labsil', 'collegeinu',
-    'feesu', 'coursil', 'branchil', 'seatsil', 'cutoff', 'rankinu',
+    // College-specific Manglish - ENHANCED
+    'collegil', 'colleginte', 'collegeinu', 'collegil', 'college',
+    'admissionu', 'admission', 'admissione', 'admsn',
+    'classil', 'class', 'classinte',
+    'libraryil', 'library', 'libraryude',
+    'hostelil', 'hostel', 'hostelinte', 'hostelu', 'ladiesu', 'boysu',
+    'examinu', 'exam', 'examsinu', 'examinte',
+    'feeu', 'fee', 'feesu', 'fees',
+    'coursinu', 'course', 'coursil', 'courseilu',
+    'semesteril', 'semester', 'sem',
+    'placementu', 'placement', 'jobbu', 'job', 'jobu',
+    'principalinte', 'principal', 'principalu',
+    'hodinte', 'hod', 'hodanu',
+    'departmentil', 'department', 'dept', 'deptil',
+    'labsil', 'lab', 'labu', 'labinu',
+    'branchil', 'branch', 'branchu',
+    'seatsil', 'seats', 'seat', 'seatu',
+    'cutoff', 'rankinu', 'rank', 'ranku',
+    'keam', 'keaminu', 'keamil', 'entrance',
+    'btechinu', 'btech', 'mtechinu', 'mtech', 'mcainu', 'mca',
+    'cse', 'ece', 'eee', 'mech', 'civil', 'itil',
+    'wifi', 'wifiya', 'canteen', 'canteenu', 'canteenilu',
+    'ground', 'sports', 'sportsu',
 
     // Time and location
-    'innu', 'innale', 'naale', 'ippo', 'ippol', 'angane', 'ivide', 'avide',
-    'engott', 'evdey', 'evidanu', 'evidaya', 'evideyanu',
+    'innu', 'innale', 'naale', 'naalenu', 'ippo', 'ippol', 'ippozha',
+    'angane', 'ivide', 'avide', 'evidanu', 'evidaya', 'evideyanu',
+    'engott', 'evdey', 'evde', 'angott', 'ingott',
 
     // Common sentence patterns
-    'nokki', 'kodukk', 'parayumo', 'ariyumo', 'aayirikkum', 'cheyyum',
-    'edukkam', 'edukkumo', 'thudangum', 'kazhinju', 'mathiyaayo', 'okke',
+    'nokki', 'kodukk', 'kodukkumo', 'kodukkuo',
+    'aayirikkum', 'cheyyum', 'aakum', 'aakumo',
+    'edukkam', 'edukkumo', 'edukkanam',
+    'thudangum', 'thudanguo', 'thudangunnath',
+    'kazhinju', 'kazhinjaal', 'mathiyaayo', 'okke', 'ellaam',
 
     // Connecting words
-    'enna', 'ennal', 'atho', 'allenkil', 'pakshe', 'pakshey', 'pinneed',
-    'pore', 'kure', 'ellam', 'onnum', 'onum', 'onnumilla',
+    'enna', 'ennal', 'atho', 'athoo', 'allenkil', 'allenki',
+    'pakshe', 'pakshey', 'pinneed', 'pinne',
+    'pore', 'kure', 'kurey', 'ellam', 'ellaam',
+    'onnum', 'onum', 'onnumilla', 'mattenthenkilum',
 
-    // Malayalam verbs in Manglish
-    'parayoo', 'paranju', 'kelkkoo', 'kelkku', 'nokkoo', 'varikku',
-    'parayuvo', 'ariyuvo', 'kittuvo', 'tharuvo', 'cheyyuvo',
+    // Common conversational fillers
+    'aah', 'hmm', 'oho', 'aaha', 'athaanu', 'athanu',
+    'sherikkum', 'sheriaa', 'pinnalla', 'pinne',
+    'aarelum', 'enthelum', 'evideyenkilum',
+
+    // Emotional/reaction words
+    'nannaayi', 'adipoli', 'kidu', 'kidilan', 'poli', 'pwoli',
+    'kashtam', 'kashtamaanu', 'easy', 'easyaanu', 'tough',
 ];
 
 // Common English words that appear in Manglish (educational context)

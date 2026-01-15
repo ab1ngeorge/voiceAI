@@ -13,43 +13,49 @@ const MANGLISH_WORDS = [
     // Question words
     'enthu', 'enthanu', 'enthaa', 'ethra', 'evide', 'evidey', 'aaru', 'aaranu',
     'engane', 'enganey', 'eppo', 'eppol', 'eppozha', 'enthina', 'enthinanu',
-    'peru', 'pera', // name
+    'peru', 'pera', 'enn', 'ennu', 'enth', // name and common question forms
 
     // Common greetings and phrases
     'namaskaram', 'namaskar', 'sugham', 'sughamano', 'sughamaano',
-    'nanni', 'thanks', 'sthothram',
+    'nanni', 'sthothram', 'nannayittu', 'kollam', 'mathi',
 
     // Yes/No words - very common in voice
     'undu', 'undo', 'illa', 'illaa', 'aanu', 'anu', 'aanallo', 'allallo',
-    'athe', 'athey', 'alle', 'ille', 'yes', 'no', 'okay',
+    'athe', 'athey', 'alle', 'ille', 'und', 'und', 'undoo', 'illaaa',
 
     // Verbs and common words
     'parayan', 'parayoo', 'parayamo', 'undakum', 'venam', 'vende', 'vendam',
-    'ariyam', 'ariyilla', 'ariyumo', 'poyi', 'poyallo',
+    'ariyam', 'ariyilla', 'ariyumo', 'poyi', 'poyallo', 'arinjilla',
     'nokku', 'nokkoo', 'nokkanam', 'cheyyuka', 'cheyyanam', 'kudeyanu',
-    'kitta', 'kittum', 'kittuo', 'tharam', 'tharao', 'tharanam',
+    'kitta', 'kittum', 'kittuo', 'tharam', 'tharao', 'tharanam', 'kittumo',
+    'parayo', 'parayamo', 'parayumo', 'tharo', 'tharumo',
 
     // Pronouns
     'njan', 'njaan', 'enikk', 'enikku', 'enik', 'nee', 'ningal', 'ningalu',
-    'avan', 'aval', 'avar', 'avar', 'athil', 'ini', 'athinu', 'ithu', 'athu',
+    'avan', 'aval', 'avar', 'athil', 'ini', 'athinu', 'ithu', 'athu',
+    'namukku', 'nammal', 'njangal', 'nammude', 'ente', 'ninte', 'avante',
 
     // College-specific Manglish
     'collegil', 'colleginte', 'admissionu', 'classil', 'libraryil',
     'hostelil', 'examinu', 'feeu', 'coursinu', 'semesteril', 'placementu',
-    'principalinte', 'hodinte', 'departmentil', 'labsil',
+    'principalinte', 'hodinte', 'departmentil', 'labsil', 'collegeinu',
+    'feesu', 'coursil', 'branchil', 'seatsil', 'cutoff', 'rankinu',
 
     // Time and location
     'innu', 'innale', 'naale', 'ippo', 'ippol', 'angane', 'ivide', 'avide',
+    'engott', 'evdey', 'evidanu', 'evidaya', 'evideyanu',
 
     // Common sentence patterns
     'nokki', 'kodukk', 'parayumo', 'ariyumo', 'aayirikkum', 'cheyyum',
-    'edukkam', 'edukkumo', 'thudangum', 'kazhinju', 'mathiyaayo',
+    'edukkam', 'edukkumo', 'thudangum', 'kazhinju', 'mathiyaayo', 'okke',
 
     // Connecting words
     'enna', 'ennal', 'atho', 'allenkil', 'pakshe', 'pakshey', 'pinneed',
+    'pore', 'kure', 'ellam', 'onnum', 'onum', 'onnumilla',
 
     // Malayalam verbs in Manglish
     'parayoo', 'paranju', 'kelkkoo', 'kelkku', 'nokkoo', 'varikku',
+    'parayuvo', 'ariyuvo', 'kittuvo', 'tharuvo', 'cheyyuvo',
 ];
 
 // Common English words that appear in Manglish (educational context)
@@ -142,8 +148,8 @@ export function detectLanguage(text: string): DetectedLanguage {
  * @param detectedLang - The detected input language
  * @returns The language code to use for response
  */
-export function getResponseLanguage(detectedLang: DetectedLanguage): 'en' | 'ml' {
-    // For Manglish, we respond in English (since user can read English letters)
-    // but can include some Manglish phrases
-    return detectedLang === 'ml' ? 'ml' : 'en';
+export function getResponseLanguage(detectedLang: DetectedLanguage): 'en' | 'ml' | 'manglish' {
+    // Return the same language for response - AI will respond appropriately
+    return detectedLang;
 }
+

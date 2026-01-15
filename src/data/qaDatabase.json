@@ -1,0 +1,1446 @@
+[
+    {
+        "id": 1,
+        "question_patterns": [
+            "What courses are available?",
+            "Engineering courses",
+            "Available programs",
+            "What programs do you offer?",
+            "courses undu",
+            "enthu courses undu",
+            "branches enthu",
+            "ethra branches undu",
+            "btech branches",
+            "കോഴ്സുകൾ",
+            "എന്ത് കോഴ്സുകൾ ഉണ്ട്?",
+            "പഠന പരിപാടികൾ",
+            "പ്രോഗ്രാമുകൾ",
+            "ബ്രാഞ്ചുകൾ"
+        ],
+        "tags": [
+            "courses",
+            "programs",
+            "admissions",
+            "പഠനം",
+            "ബിരുദം"
+        ],
+        "answer_facts": {
+            "UG Programs (B.Tech)": "Computer Science & Engineering (CSE), Electronics & Communication Engineering (ECE), Electrical & Electronics Engineering (EEE), Mechanical Engineering (ME), Civil Engineering (CE), Information Technology (IT)",
+            "PG Programs": "M.Tech in Computer Science & Engineering, Master of Computer Applications (MCA)",
+            "Annual Intake": "480 for UG programs, 18 for PG program in CSE",
+            "Duration": "B.Tech: 4 years (8 semesters)",
+            "Approval": "Approved by AICTE and affiliated to APJ Abdul Kalam Technological University",
+            "Additional Info": "MCA program started in 2000 with intake of 35, Civil Engineering added in 2008"
+        }
+    },
+    {
+        "id": 2,
+        "question_patterns": [
+            "Contact information",
+            "How to contact college?",
+            "Office phone",
+            "Email address",
+            "college phone number",
+            "phone number enthu",
+            "contact cheyan",
+            "engane contact cheyyam",
+            "email id enthu",
+            "office number",
+            "കോളേജ് ഫോൺ നമ്പർ",
+            "എങ്ങനെ ബന്ധപ്പെടാം?",
+            "വിലാസം",
+            "ഇമെയിൽ",
+            "ഫോൺ നമ്പർ എന്താണ്"
+        ],
+        "tags": [
+            "contact",
+            "phone",
+            "email",
+            "address",
+            "ബന്ധപ്പെടൽ",
+            "സമ്പർക്കം"
+        ],
+        "answer_facts": {
+            "Phone": "+91-4994-256300, +91-4994-256301",
+            "Fax": "+91-4994-256302",
+            "Email": "principal@lbscek.ac.in, office@lbscek.ac.in",
+            "Admission Email": "admission@lbscek.ac.in",
+            "Address": "LBS College of Engineering, Muliyar, Kasaragod District, Kerala - 671542, India",
+            "Location": "Situated in Muliyar Panchayath, 12 km from Kasaragod town",
+            "Website": "https://lbscek.ac.in",
+            "Office Hours": "9:00 AM to 5:00 PM (Monday to Friday), 9:00 AM to 1:00 PM (Saturday)"
+        }
+    },
+    {
+        "id": 3,
+        "question_patterns": [
+            "Library hours",
+            "When is library open?",
+            "Library timing",
+            "library eppo thurakum",
+            "library timing enthu",
+            "library samayam",
+            "ലൈബ്രറി സമയം",
+            "ലൈബ്രറി തുറന്ന സമയം",
+            "വായനശാല സമയം",
+            "ലൈബ്രറി എപ്പോൾ തുറക്കും"
+        ],
+        "tags": [
+            "library",
+            "facilities",
+            "timings",
+            "ലൈബ്രറി",
+            "വായനശാല"
+        ],
+        "answer_facts": {
+            "Weekdays (Mon-Fri)": "8:30 AM to 8:00 PM",
+            "Saturdays": "8:30 AM to 5:00 PM",
+            "Sundays": "10:00 AM to 4:00 PM",
+            "Exam Period": "Extended hours during university exams",
+            "Digital Library": "24/7 access to online resources",
+            "Collection": "Over 25,000 books, 100+ print journals, 5000+ e-journals",
+            "Facilities": "Reading rooms, reference section, digital library, photocopying"
+        }
+    },
+    {
+        "id": 4,
+        "question_patterns": [
+            "Admission process",
+            "How to apply?",
+            "Admission procedure",
+            "admission engane",
+            "engane apply cheyyam",
+            "admission process enthu",
+            "keam counselling",
+            "admission kittanam",
+            "college il cheranam",
+            "എങ്ങനെ അപ്ലൈ ചെയ്യാം?",
+            "അഡ്മിഷൻ പ്രോസസ്സ്",
+            "പ്രവേശന രീതി",
+            "എങ്ങനെ ചേരാം"
+        ],
+        "tags": [
+            "admission",
+            "apply",
+            "procedure",
+            "അഡ്മിഷൻ",
+            "പ്രവേശനം"
+        ],
+        "answer_facts": {
+            "Application Mode": "Through KEAM (Kerala Engineering Architecture Medical) counselling",
+            "Eligibility": "10+2 with minimum 50% marks in Physics, Chemistry, and Mathematics",
+            "Entrance Exam": "KEAM score is mandatory",
+            "Lateral Entry": "Diploma holders can apply for direct second year admission",
+            "NRI Quota": "15% seats reserved for NRI candidates",
+            "Management Quota": "Available as per government norms",
+            "Important Dates": "KEAM application usually opens in January, counselling in June-July",
+            "Documents Required": "KEAM rank card, 10th & 12th marksheets, transfer certificate, conduct certificate, passport size photos"
+        }
+    },
+    {
+        "id": 5,
+        "question_patterns": [
+            "Fee structure",
+            "College fees",
+            "Tuition fees",
+            "fees ethra",
+            "fee structure enthu",
+            "college fees ethra",
+            "tuition fee",
+            "government quota fees",
+            "management quota fees",
+            "ഫീസ് എത്ര?",
+            "ട്യൂഷൻ ഫീസ്",
+            "കോളേജ് ഫീസ്",
+            "ഫീസ് എന്തൊക്കെ"
+        ],
+        "tags": [
+            "fees",
+            "fee structure",
+            "tuition",
+            "ഫീസ്",
+            "ട്യൂഷൻ"
+        ],
+        "answer_facts": {
+            "Government Seat Fees": "Approximately ₹45,000 per year",
+            "Management Seat Fees": "Approximately ₹75,000 per year",
+            "NRI Quota Fees": "Approximately $3,000 per year",
+            "Other Fees": "Caution deposit (refundable): ₹5,000, Library fee: ₹1,500, Exam fee: ₹2,000 per semester",
+            "Hostel Fees": "Approximately ₹35,000 per year including food",
+            "Payment Mode": "Online payment available through college portal",
+            "Scholarships": "Merit scholarships, SC/ST scholarships, EWS scholarships available"
+        }
+    },
+    {
+        "id": 6,
+        "question_patterns": [
+            "Hostel facilities",
+            "Accommodation",
+            "Boys hostel",
+            "Girls hostel",
+            "hostel undo",
+            "hostel undu",
+            "boys hostel",
+            "girls hostel",
+            "ladies hostel",
+            "hostel facilities",
+            "accommodation undo",
+            "ഹോസ്റ്റൽ",
+            "വസതി",
+            "ആൺകുട്ടികൾ ഹോസ്റ്റൽ",
+            "പെൺകുട്ടികൾ ഹോസ്റ്റൽ",
+            "ഹോസ്റ്റൽ ഉണ്ടോ"
+        ],
+        "tags": [
+            "hostel",
+            "accommodation",
+            "boarding",
+            "ഹോസ്റ്റൽ",
+            "വസതി"
+        ],
+        "answer_facts": {
+            "Boys Hostel": "Separate hostel blocks with capacity for 300 students",
+            "Girls Hostel": "Secure hostel with capacity for 200 students",
+            "Rooms": "Single, double, and triple sharing rooms available",
+            "Facilities": "Wi-Fi, reading room, TV room, indoor games, gym, laundry",
+            "Mess": "Separate vegetarian and non-vegetarian mess with North & South Indian food",
+            "Security": "24/7 security, CCTV surveillance, warden supervision",
+            "Medical": "First aid facility, tie-up with nearby hospitals",
+            "Visiting Hours": "Parents can visit on weekends with prior permission"
+        }
+    },
+    {
+        "id": 7,
+        "question_patterns": [
+            "Placement cell",
+            "Campus recruitment",
+            "Job opportunities",
+            "placement undo",
+            "placement statistics",
+            "job kittuo",
+            "campus placement",
+            "companies varunundo",
+            "salary package",
+            "average package",
+            "highest package",
+            "പ്ലേസ്മെന്റ്",
+            "ജോലി അവസരങ്ങൾ",
+            "കാമ്പസ് റിക്രൂട്ട്മെന്റ്",
+            "ജോലി കിട്ടുമോ"
+        ],
+        "tags": [
+            "placement",
+            "jobs",
+            "career",
+            "recruitment",
+            "പ്ലേസ്മെന്റ്",
+            "ജോലി"
+        ],
+        "answer_facts": {
+            "Placement Cell": "Dedicated Training & Placement Cell with full-time coordinator",
+            "Companies Visited": "TCS, Infosys, Wipro, Tech Mahindra, Cognizant, Bosch, BYJU'S, etc.",
+            "Highest Package": "₹12 LPA (2023 batch)",
+            "Average Package": "₹4.5 LPA",
+            "Placement Rate": "85% of eligible students placed",
+            "Training Programs": "Aptitude training, technical workshops, mock interviews, GD sessions",
+            "Internships": "Summer internships with stipend in reputed companies",
+            "Higher Studies": "Guidance for GATE, CAT, GRE, TOEFL exams"
+        }
+    },
+    {
+        "id": 8,
+        "question_patterns": [
+            "College location",
+            "How to reach?",
+            "Directions to college",
+            "college evide",
+            "location enthu",
+            "engane etham",
+            "address enthu",
+            "kasaragod college",
+            "കോളേജ് എവിടെ?",
+            "എങ്ങനെ എത്തിച്ചേരാം?",
+            "സ്ഥലം",
+            "വിലാസം എന്താണ്"
+        ],
+        "tags": [
+            "location",
+            "directions",
+            "map",
+            "സ്ഥലം",
+            "ലൊക്കേഷൻ"
+        ],
+        "answer_facts": {
+            "Full Name": "Lal Bahadur Shastri College of Engineering, Kasaragod",
+            "Address": "LBS College of Engineering, Muliyar, Kasaragod District, Kerala - 671542",
+            "Campus Area": "52 acres of land at Povval",
+            "Distance from Town": "12 km from Kasaragod town",
+            "Nearest Airport": "Mangaluru Airport (Mangalore International Airport)",
+            "Nearest Railway": "Kasaragod Railway Station",
+            "Tourist Attractions Nearby": "Bekal Fort, Madhur temple, Ananthapuri temple",
+            "GPS Coordinates": "12.5960° N, 75.0300° E"
+        }
+    },
+    {
+        "id": 9,
+        "question_patterns": [
+            "College timing",
+            "Working hours",
+            "Office hours",
+            "college time",
+            "timing enthu",
+            "class time",
+            "office samayam",
+            "college eppo thurakum",
+            "കോളേജ് സമയം",
+            "ഓഫീസ് സമയം",
+            "പ്രവർത്തന സമയം",
+            "ക്ലാസ് സമയം"
+        ],
+        "tags": [
+            "timings",
+            "hours",
+            "schedule",
+            "സമയം",
+            "ടൈമിംഗ്"
+        ],
+        "answer_facts": {
+            "College Hours": "9:00 AM to 4:30 PM (Monday to Friday)",
+            "Office Hours": "9:00 AM to 5:00 PM (Monday to Friday), 9:00 AM to 1:00 PM (Saturday)",
+            "Class Timing": "9:15 AM to 4:00 PM with lunch break from 1:00 PM to 1:45 PM",
+            "Library Hours": "8:30 AM to 8:00 PM (Weekdays)",
+            "Computer Center": "8:30 AM to 8:00 PM (All days)",
+            "Holidays": "Follows Kerala Government and University holidays"
+        }
+    },
+    {
+        "id": 10,
+        "question_patterns": [
+            "Sports facilities",
+            "Playground",
+            "Gym",
+            "sports undo",
+            "ground undo",
+            "gym undu",
+            "football ground",
+            "cricket ground",
+            "sports facilities",
+            "സ്പോർട്സ്",
+            "ഗ്രൗണ്ട്",
+            "ജിം",
+            "കായിക സൗകര്യങ്ങൾ",
+            "സ്പോർട്സ് ഉണ്ടോ"
+        ],
+        "tags": [
+            "sports",
+            "games",
+            "gym",
+            "സ്പോർട്സ്",
+            "കായികം"
+        ],
+        "answer_facts": {
+            "Main Stadium": "College main stadium on campus",
+            "Playground": "Large playground for cricket, football, volleyball",
+            "Indoor Stadium": "Multi-purpose indoor stadium for badminton, table tennis, chess",
+            "Gymnasium": "Well-equipped gym with trainer",
+            "Sports Offered": "Cricket, football, basketball, volleyball, badminton, table tennis, chess, carrom",
+            "Annual Sports": "Inter-collegiate tournaments, annual sports meet"
+        }
+    },
+    {
+        "id": 11,
+        "question_patterns": [
+            "Laboratories",
+            "Computer labs",
+            "Engineering labs",
+            "lab undo",
+            "computer lab",
+            "labs enthu",
+            "lab facilities",
+            "ലാബുകൾ",
+            "കമ്പ്യൂട്ടർ ലാബ്",
+            "പരീക്ഷണശാല",
+            "ലാബ് ഉണ്ടോ"
+        ],
+        "tags": [
+            "labs",
+            "laboratories",
+            "facilities",
+            "ലാബ്",
+            "പരീക്ഷണശാല"
+        ],
+        "answer_facts": {
+            "Computer Labs": "8 computer labs with 400+ systems, high-speed internet",
+            "Department Labs": "Separate labs for each engineering department",
+            "Special Labs": "CAD/CAM lab, DSP lab, VLSI lab, Networking lab",
+            "Equipment": "Modern equipment as per AICTE and university norms",
+            "Software": "Licensed software: MATLAB, AutoCAD, ANSYS, Oracle, etc.",
+            "Research Centers": "Mechanical Engineering and CSE recognized as research centres"
+        }
+    },
+    {
+        "id": 12,
+        "question_patterns": [
+            "College history",
+            "When established?",
+            "Founder",
+            "college history",
+            "eppo start aayi",
+            "established year",
+            "college founding",
+            "കോളേജ് ചരിത്രം",
+            "എപ്പോൾ സ്ഥാപിച്ചു?",
+            "സ്ഥാപകൻ",
+            "എപ്പോൾ സ്ടാർട്ട് ആയി"
+        ],
+        "tags": [
+            "history",
+            "established",
+            "founder",
+            "ചരിത്രം",
+            "സ്ഥാപകൻ"
+        ],
+        "answer_facts": {
+            "Established": "1993 (started in 1995)",
+            "Full Name": "Lal Bahadur Shastri College of Engineering, Kasaragod",
+            "Managed by": "L B S Centre for Science and Technology, Thiruvananthapuram (Government of Kerala)",
+            "Initial Programs": "Started with 4 B.Tech programs (ME, EEE, CSE, ECE) with 240 seats",
+            "Campus Area": "52 acres at Povval",
+            "Vision": "To become a paragon institution for Education and Research in Engineering"
+        }
+    },
+    {
+        "id": 13,
+        "question_patterns": [
+            "Student clubs",
+            "Technical clubs",
+            "Cultural clubs",
+            "clubs undo",
+            "technical clubs",
+            "cultural clubs",
+            "ieee",
+            "വിദ്യാർത്ഥി ക്ലബ്ബുകൾ",
+            "ടെക്നിക്കൽ ക്ലബ്ബ്",
+            "സാംസ്കാരിക ക്ലബ്ബ്",
+            "ക്ലബ്ബുകൾ ഉണ്ടോ"
+        ],
+        "tags": [
+            "clubs",
+            "associations",
+            "activities",
+            "ക്ലബ്ബ്",
+            "സംഘടന"
+        ],
+        "answer_facts": {
+            "Technical Clubs": "IEEE Student Branch, CSI, ISTE, IETE, SAE",
+            "Cultural Clubs": "Music club, Dance club, Drama club, Fine arts club",
+            "Other Clubs": "Entrepreneurship cell, Literary club, Photography club, Nature club",
+            "Events": "Annual tech fest 'TECHSURGE', cultural fest 'RHYTHM'"
+        }
+    },
+    {
+        "id": 14,
+        "question_patterns": [
+            "Transport facility",
+            "College bus",
+            "Bus service",
+            "bus undo",
+            "college bus",
+            "transport facility",
+            "bus route",
+            "ട്രാൻസ്പോർട്ട്",
+            "കോളേജ് ബസ്",
+            "ബസ് സർവീസ്",
+            "ബസ് ഉണ്ടോ"
+        ],
+        "tags": [
+            "transport",
+            "bus",
+            "commute",
+            "ട്രാൻസ്പോർട്ട്",
+            "ബസ്"
+        ],
+        "answer_facts": {
+            "Bus Service": "College buses from major towns in Kasaragod district",
+            "Routes": "Kasaragod, Kanhangad, Nileshwar, Bekal, Manjeshwar",
+            "Fees": "₹8,000 per year (approximate)",
+            "Safety": "Female attendants in girls' buses, GPS tracking"
+        }
+    },
+    {
+        "id": 15,
+        "question_patterns": [
+            "Faculty details",
+            "Teaching staff",
+            "Professors",
+            "teachers ethra",
+            "faculty details",
+            "professors undo",
+            "ഫാക്കൽറ്റി",
+            "അദ്ധ്യാപകർ",
+            "പ്രൊഫസർമാർ",
+            "ടീച്ചേഴ്സ്"
+        ],
+        "tags": [
+            "faculty",
+            "teachers",
+            "professors",
+            "ഫാക്കൽറ്റി",
+            "അദ്ധ്യാപകർ"
+        ],
+        "answer_facts": {
+            "Total Faculty": "120+ teaching staff",
+            "Qualifications": "90% faculty with M.Tech/Ph.D degrees",
+            "Experience": "Average 10+ years of teaching experience",
+            "Student Ratio": "Approximately 1:15 faculty-student ratio"
+        }
+    },
+    {
+        "id": 16,
+        "question_patterns": [
+            "Infrastructure details",
+            "Campus facilities",
+            "Buildings",
+            "campus facilities",
+            "buildings enthu",
+            "infrastructure",
+            "ഇൻഫ്രാസ്ട്രക്ചർ",
+            "കാമ്പസ് സൗകര്യങ്ങൾ",
+            "കെട്ടിടങ്ങൾ"
+        ],
+        "tags": [
+            "infrastructure",
+            "campus",
+            "buildings",
+            "ഇൻഫ്രാസ്ട്രക്ചർ",
+            "കാമ്പസ്"
+        ],
+        "answer_facts": {
+            "Campus Area": "52 acres at Povval",
+            "Total Built-up Area": "2.5 lakh square feet",
+            "Academic Blocks": "Two academic blocks with 50 classrooms",
+            "Auditoriums": "Main auditorium (1500 capacity), open-air auditorium"
+        }
+    },
+    {
+        "id": 17,
+        "question_patterns": [
+            "Research facilities",
+            "Research centres",
+            "PhD programs",
+            "phd undo",
+            "research undo",
+            "research centre",
+            "ഗവേഷണ സൗകര്യങ്ങൾ",
+            "ഗവേഷണ കേന്ദ്രങ്ങൾ",
+            "പി.എച്ച്.ഡി. ഉണ്ടോ"
+        ],
+        "tags": [
+            "research",
+            "phd",
+            "projects",
+            "ഗവേഷണം",
+            "പി.എച്ച്.ഡി."
+        ],
+        "answer_facts": {
+            "Research Centers": "Mechanical Engineering and CSE recognized as research centres",
+            "PhD Programs": "Research programs available in all engineering departments",
+            "PG Programs": "Four post graduate programmes added during 2013-15"
+        }
+    },
+    {
+        "id": 18,
+        "question_patterns": [
+            "College vision and mission",
+            "Vision statement",
+            "Mission statement",
+            "vision enthu",
+            "mission enthu",
+            "college aim",
+            "വിഷൻ",
+            "മിഷൻ",
+            "ലക്ഷ്യം"
+        ],
+        "tags": [
+            "vision",
+            "mission",
+            "goals",
+            "വിഷൻ",
+            "മിഷൻ"
+        ],
+        "answer_facts": {
+            "Vision": "To become a paragon institution for Education and Research in Engineering and Technology",
+            "Mission 1": "Impart finest quality Technical Education & Training",
+            "Mission 2": "Nurture a vision of Sustainable development"
+        }
+    },
+    {
+        "id": 19,
+        "question_patterns": [
+            "Canteen facilities",
+            "Food court",
+            "Cafeteria",
+            "canteen undo",
+            "food undo",
+            "canteen timing",
+            "mess undo",
+            "കാൻറീൻ",
+            "ഭക്ഷണം",
+            "കഫറ്റീരിയ",
+            "കാൻറീൻ ഉണ്ടോ"
+        ],
+        "tags": [
+            "canteen",
+            "food",
+            "cafeteria",
+            "ഭക്ഷണം",
+            "കാൻറീൻ"
+        ],
+        "answer_facts": {
+            "Location": "Near the administrative block",
+            "Menu": "South Indian and North Indian dishes (Veg & Non-Veg)",
+            "Timings": "8:00 AM to 5:00 PM on working days",
+            "Prices": "Subsidized rates for students"
+        }
+    },
+    {
+        "id": 20,
+        "question_patterns": [
+            "Anti-ragging policy",
+            "Is ragging allowed?",
+            "Safety for freshers",
+            "ragging undo",
+            "safety undo",
+            "ragging policy",
+            "റാഗിംഗ്",
+            "പരാതി",
+            "സുരക്ഷ",
+            "റാഗിംഗ് ഉണ്ടോ"
+        ],
+        "tags": [
+            "ragging",
+            "safety",
+            "discipline",
+            "റാഗിംഗ്",
+            "സുരക്ഷ"
+        ],
+        "answer_facts": {
+            "Policy": "Zero Tolerance towards ragging",
+            "Committee": "Anti-Ragging Committee and Squad are active",
+            "Helpline": "National Anti-Ragging Helpline: 1800-180-5522",
+            "Monitoring": "CCTV surveillance and faculty squads"
+        }
+    },
+    {
+        "id": 21,
+        "question_patterns": [
+            "Co-operative store",
+            "Where to buy books?",
+            "Stationery shop",
+            "store undo",
+            "books evide vangum",
+            "stationery shop",
+            "സ്റ്റോർ",
+            "പുസ്തകങ്ങൾ",
+            "സ്റ്റോർ ഉണ്ടോ"
+        ],
+        "tags": [
+            "store",
+            "books",
+            "stationery",
+            "സ്റ്റോർ",
+            "പുസ്തകം"
+        ],
+        "answer_facts": {
+            "Facility": "LBS College Employees Co-operative Society Store",
+            "Items Available": "Textbooks, practical records, stationery",
+            "Benefits": "Items sold at discounted rates"
+        }
+    },
+    {
+        "id": 22,
+        "question_patterns": [
+            "Scholarships details",
+            "Financial aid",
+            "E-Grantz",
+            "scholarship undo",
+            "e-grantz",
+            "fee concession",
+            "financial help",
+            "സ്കോളർഷിപ്പ്",
+            "ധനസഹായം",
+            "ഫീസ് ഇളവ്",
+            "സ്കോളർഷിപ്പ് ഉണ്ടോ"
+        ],
+        "tags": [
+            "scholarship",
+            "financial aid",
+            "grants",
+            "സ്കോളർഷിപ്പ്",
+            "സഹായം"
+        ],
+        "answer_facts": {
+            "Government Schemes": "E-Grantz for SC/ST/OEC/SEBC categories",
+            "Central Schemes": "Merit-cum-Means Scholarship for minorities",
+            "AICTE Schemes": "Pragati for girls, Saksham for differently-abled",
+            "Fee Waiver": "TFW scheme for meritorious students"
+        }
+    },
+    {
+        "id": 23,
+        "question_patterns": [
+            "Internet facility",
+            "Wi-Fi details",
+            "Network",
+            "wifi undo",
+            "internet undo",
+            "wifi password",
+            "net connection",
+            "ഇന്റർനെറ്റ്",
+            "വൈഫൈ",
+            "നെറ്റ്‌വർക്ക്",
+            "വൈഫൈ ഉണ്ടോ"
+        ],
+        "tags": [
+            "internet",
+            "wifi",
+            "network",
+            "ഇന്റർനെറ്റ്",
+            "വൈഫൈ"
+        ],
+        "answer_facts": {
+            "Connectivity": "High-speed via NKN (National Knowledge Network)",
+            "Wi-Fi": "Campus-wide Wi-Fi in academic blocks and hostels",
+            "Speed": "1 Gbps backbone connectivity",
+            "Access": "Free for students and staff for academic purposes"
+        }
+    },
+    {
+        "id": 24,
+        "question_patterns": [
+            "Banking facilities",
+            "ATM near college",
+            "Bank",
+            "atm undo",
+            "bank undo",
+            "atm evide",
+            "ബാങ്ക്",
+            "എടിഎം",
+            "പണം",
+            "എടിഎം ഉണ്ടോ"
+        ],
+        "tags": [
+            "bank",
+            "atm",
+            "finance",
+            "ബാങ്ക്",
+            "എടിഎം"
+        ],
+        "answer_facts": {
+            "Bank": "Canara Bank, SBI branches within 2km",
+            "ATM": "ATM facility near college entrance",
+            "Transactions": "College fee payments fully digital/online"
+        }
+    },
+    {
+        "id": 25,
+        "question_patterns": [
+            "Principal name",
+            "Who is the principal?",
+            "College head",
+            "principal peru",
+            "principal aaru",
+            "principal aaranu",
+            "പ്രിൻസിപ്പാൾ ആരാണ്?",
+            "പ്രിൻസിപ്പൽ",
+            "പ്രിൻസിപ്പാൾ",
+            "പ്രിൻസിപ്പാളിനെ",
+            "പ്രിൻസിപ്പാളിന്റെ പേര്",
+            "പ്രിൻസിപ്പാളിനെ പേര്",
+            "പ്രിൻസിപ്പാളിന്റെ പേരെന്താണ്",
+            "പ്രിൻസിപ്പാളിനെ പേരെന്താണ്",
+            "പേര് പ്രിൻസിപ്പൽ"
+        ],
+        "tags": [
+            "principal",
+            "admin",
+            "head",
+            "authority",
+            "പ്രിൻസിപ്പൽ",
+            "പ്രിൻസിപ്പാൾ",
+            "പേര്"
+        ],
+        "answer_facts": {
+            "Name": "Dr. Mohammad Shekoor T",
+            "Designation": "Principal",
+            "Department": "Mechanical Engineering",
+            "Email": "principal@lbscek.ac.in",
+            "Phone": "04994-250290",
+            "Qualifications": "Ph.D. from NIT Surathkal"
+        }
+    },
+    {
+        "id": 26,
+        "question_patterns": [
+            "hello",
+            "hi",
+            "hey",
+            "good morning",
+            "good afternoon",
+            "namaste",
+            "ഹലോ",
+            "ഹായ്",
+            "സുപ്രഭാതം",
+            "നമസ്കാരം"
+        ],
+        "tags": [
+            "greeting",
+            "hello",
+            "welcome"
+        ],
+        "answer_facts": {
+            "Response": [
+                "Hello! How can I help you today?",
+                "Hi there! Ask me anything about LBS College.",
+                "നമസ്കാരം! LBS College സംബന്ധിച്ച് എന്തെങ്കിലും ചോദിക്കാമോ?"
+            ]
+        }
+    },
+    {
+        "id": 27,
+        "question_patterns": [
+            "how are you",
+            "how are you doing",
+            "sugham ano",
+            "സുഖമാണോ",
+            "എന്തുണ്ട് വിശേഷം"
+        ],
+        "tags": [
+            "smalltalk",
+            "human",
+            "interaction"
+        ],
+        "answer_facts": {
+            "Response": [
+                "I'm doing great! How can I assist you?",
+                "സുഖമാണ്! നിങ്ങളെ എങ്ങനെ സഹായിക്കാം?"
+            ]
+        }
+    },
+    {
+        "id": 28,
+        "question_patterns": [
+            "thank you",
+            "thanks",
+            "thanks a lot",
+            "നന്ദി",
+            "വളരെ നന്ദി"
+        ],
+        "tags": [
+            "thanks",
+            "gratitude",
+            "polite"
+        ],
+        "answer_facts": {
+            "Response": [
+                "You're welcome!",
+                "Happy to help!",
+                "സഹായിക്കാൻ കഴിഞ്ഞത് സന്തോഷം!"
+            ]
+        }
+    },
+    {
+        "id": 29,
+        "question_patterns": [
+            "bye",
+            "goodbye",
+            "see you",
+            "exit",
+            "വിട",
+            "പിന്നെ കാണാം"
+        ],
+        "tags": [
+            "bye",
+            "exit",
+            "end"
+        ],
+        "answer_facts": {
+            "Response": [
+                "Goodbye! Have a great day.",
+                "See you again!",
+                "വിട! നല്ലൊരു ദിവസം ആശംസിക്കുന്നു!"
+            ]
+        }
+    },
+    {
+        "id": 30,
+        "question_patterns": [
+            "help",
+            "what can you do",
+            "options",
+            "സഹായം",
+            "നിനക്ക് എന്ത് ചെയ്യാൻ കഴിയും"
+        ],
+        "tags": [
+            "help",
+            "guide",
+            "support"
+        ],
+        "answer_facts": {
+            "Response": [
+                "I can help with admissions, courses, fees, hostel, placements, and more.",
+                "അഡ്മിഷൻ, കോഴ്സുകൾ, ഫീസ്, ഹോസ്റ്റൽ, പ്ലേസ്മെന്റ് എന്നിവയെക്കുറിച്ച് ചോദിക്കാം."
+            ]
+        }
+    },
+    {
+        "id": 31,
+        "question_patterns": [
+            "random",
+            "unknown",
+            "nonsense"
+        ],
+        "tags": [
+            "fallback",
+            "unknown"
+        ],
+        "answer_facts": {
+            "Response": [
+                "Sorry, I didn't understand that. Could you please rephrase?",
+                "ക്ഷമിക്കണം, അത് മനസ്സിലായില്ല. ദയവായി വീണ്ടും ചോദിക്കൂ."
+            ]
+        }
+    },
+    {
+        "id": 32,
+        "question_patterns": [
+            "MCA admission",
+            "Master of Computer Applications",
+            "MCA eligibility",
+            "എംസിഎ പ്രവേശനം",
+            "എംസിഎ കോഴ്സ്"
+        ],
+        "tags": [
+            "mca",
+            "pg",
+            "admissions",
+            "എംസിഎ",
+            "പിജി"
+        ],
+        "answer_facts": {
+            "Program": "Master of Computer Applications (MCA)",
+            "Started": "2000",
+            "Intake": "35 students",
+            "Duration": "3 years (6 semesters)",
+            "Eligibility": "Bachelor's degree with Mathematics at 10+2 or graduation level"
+        }
+    },
+    {
+        "id": 33,
+        "question_patterns": [
+            "Alumni network",
+            "Alumni association",
+            "Former students",
+            "മുൻ വിദ്യാർത്ഥികൾ",
+            "ആൽമ്മനായ്"
+        ],
+        "tags": [
+            "alumni",
+            "network",
+            "achievements",
+            "ആൽമ്മനായ്"
+        ],
+        "answer_facts": {
+            "Association": "LBS College of Engineering Alumni Association (LBSCEKAA)",
+            "Notable Alumni": "Alumni in top companies worldwide including Google, Microsoft, Amazon"
+        }
+    },
+    {
+        "id": 34,
+        "question_patterns": [
+            "Campus events",
+            "College festivals",
+            "Tech fest",
+            "Cultural fest",
+            "കാമ്പസ് ഇവന്റുകൾ",
+            "ടെക് ഫെസ്റ്റ്"
+        ],
+        "tags": [
+            "events",
+            "festivals",
+            "activities",
+            "ഇവന്റുകൾ"
+        ],
+        "answer_facts": {
+            "Tech Fest": "'TECHSURGE' - Annual technical festival",
+            "Cultural Fest": "'RHYTHM' - Annual cultural festival",
+            "Other Events": "Sports meet, department days, hackathons"
+        }
+    },
+    {
+        "id": 35,
+        "question_patterns": [
+            "Medical facilities",
+            "Health center",
+            "First aid",
+            "മെഡിക്കൽ",
+            "ആരോഗ്യ കേന്ദ്രം",
+            "ഫസ്റ്റ് എയ്ഡ്"
+        ],
+        "tags": [
+            "medical",
+            "health",
+            "clinic",
+            "ആരോഗ്യം"
+        ],
+        "answer_facts": {
+            "Medical Room": "First aid facility on campus",
+            "Tie-ups": "Associated with nearby hospitals",
+            "Insurance": "Student accident insurance coverage"
+        }
+    },
+    {
+        "id": 36,
+        "question_patterns": [
+            "Nearby attractions",
+            "Tourist places",
+            "Places to visit",
+            "സ്ഥലങ്ങൾ",
+            "പ്രസിദ്ധ സ്ഥലങ്ങൾ"
+        ],
+        "tags": [
+            "attractions",
+            "tourism",
+            "places",
+            "സ്ഥലങ്ങൾ"
+        ],
+        "answer_facts": {
+            "Bekal Fort": "Historic fort about 45 km from campus",
+            "Madhur Temple": "Famous temple approximately 25 km away",
+            "Kappil Beach": "Beautiful beach approximately 35 km away"
+        }
+    },
+    {
+        "id": 37,
+        "question_patterns": [
+            "Industry collaborations",
+            "Company tie-ups",
+            "MoUs",
+            "ഇൻഡസ്ട്രി കോളാബറേഷൻ",
+            "കമ്പനി ടൈ-അപ്പുകൾ"
+        ],
+        "tags": [
+            "collaborations",
+            "industry",
+            "partnerships",
+            "ഉടമ്പടി"
+        ],
+        "answer_facts": {
+            "Objectives": "Enhance practical exposure, facilitate internships",
+            "Benefits": "Guest lectures, industry visits, live projects"
+        }
+    },
+    {
+        "id": 38,
+        "question_patterns": [
+            "Academic calendar",
+            "College schedule",
+            "Holiday list",
+            "അക്കാദമിക് കലണ്ടർ",
+            "വിരാമ ദിനങ്ങൾ"
+        ],
+        "tags": [
+            "calendar",
+            "schedule",
+            "holidays",
+            "കലണ്ടർ"
+        ],
+        "answer_facts": {
+            "Academic Year": "June/July to April/May",
+            "Semesters": "Odd: July-December, Even: January-May",
+            "Holidays": "Follows Kerala Government holidays"
+        }
+    },
+    {
+        "id": 39,
+        "question_patterns": [
+            "Women's cell",
+            "Women empowerment",
+            "Ladies cell",
+            "വിമൻസ് സെൽ",
+            "സ്ത്രീ സശക്തീകരണം"
+        ],
+        "tags": [
+            "women",
+            "empowerment",
+            "safety",
+            "സ്ത്രീ"
+        ],
+        "answer_facts": {
+            "Purpose": "Ensure safety and empowerment of women students",
+            "Activities": "Awareness programs, self-defense workshops"
+        }
+    },
+    {
+        "id": 40,
+        "question_patterns": [
+            "Project facilities",
+            "Final year project",
+            "Mini project",
+            "പ്രോജക്ട്",
+            "ഫൈനൽ ഇയർ പ്രോജക്ട്"
+        ],
+        "tags": [
+            "projects",
+            "research",
+            "guidance",
+            "പ്രോജക്ട്"
+        ],
+        "answer_facts": {
+            "Duration": "Mini projects in 3rd year, Major project in final year",
+            "Facilities": "Labs available with extended hours",
+            "Exhibition": "Annual project exhibition"
+        }
+    },
+    {
+        "id": 41,
+        "question_patterns": [
+            "Discipline committee",
+            "Code of conduct",
+            "College rules",
+            "ശിഷ്ടാചാര കമ്മിറ്റി",
+            "കോളേജ് നിയമങ്ങൾ"
+        ],
+        "tags": [
+            "discipline",
+            "rules",
+            "conduct",
+            "ശിഷ്ടാചാരം"
+        ],
+        "answer_facts": {
+            "Attendance": "Minimum 75% attendance required",
+            "Dress Code": "Formal dress code for students"
+        }
+    },
+    {
+        "id": 42,
+        "question_patterns": [
+            "Entrepreneurship cell",
+            "Startup support",
+            "Innovation center",
+            "എൻട്രപ്രിനർഷിപ്പ്",
+            "സ്റ്റാർട്ടപ്പ്"
+        ],
+        "tags": [
+            "entrepreneurship",
+            "startup",
+            "innovation",
+            "എൻട്രപ്രിനർഷിപ്പ്"
+        ],
+        "answer_facts": {
+            "E-Cell": "Entrepreneurship cell to foster startup culture",
+            "Activities": "Ideation workshops, business plan competitions"
+        }
+    },
+    {
+        "id": 43,
+        "question_patterns": [
+            "Foreign students",
+            "International admissions",
+            "NRI quota",
+            "വിദേശ വിദ്യാർത്ഥികൾ",
+            "എൻആർഐ ക്വോട്ട"
+        ],
+        "tags": [
+            "international",
+            "nri",
+            "foreign",
+            "അന്തർദേശീയ"
+        ],
+        "answer_facts": {
+            "NRI Quota": "15% seats reserved for NRI candidates",
+            "Fees": "Higher fee structure for NRI quota seats"
+        }
+    },
+    {
+        "id": 44,
+        "question_patterns": [
+            "College magazine",
+            "Student publication",
+            "Annual magazine",
+            "കോളേജ് മാഗസിൻ",
+            "വാർഷിക മാഗസിൻ"
+        ],
+        "tags": [
+            "magazine",
+            "publication",
+            "news",
+            "മാഗസിൻ"
+        ],
+        "answer_facts": {
+            "Name": "College publishes an annual magazine",
+            "Content": "Academic achievements, student articles, cultural events"
+        }
+    },
+    {
+        "id": 45,
+        "question_patterns": [
+            "Training programs",
+            "Skill development",
+            "Soft skills training",
+            "ട്രെയിനിംഗ്",
+            "സോഫ്റ്റ് സ്കില്ല്സ്"
+        ],
+        "tags": [
+            "training",
+            "skills",
+            "development",
+            "ട്രെയിനിംഗ്"
+        ],
+        "answer_facts": {
+            "Regular Training": "Aptitude, technical, and soft skills training",
+            "Mock Tests": "Regular practice tests for competitive exams"
+        }
+    },
+    {
+        "id": 46,
+        "question_patterns": [
+            "Campus map",
+            "Building locations",
+            "Campus navigation",
+            "കാമ്പസ് മാപ്പ്",
+            "കെട്ടിടങ്ങളുടെ സ്ഥാനം"
+        ],
+        "tags": [
+            "campus",
+            "map",
+            "buildings",
+            "navigation",
+            "മാപ്പ്"
+        ],
+        "answer_facts": {
+            "Campus Overview": "LBS College of Engineering at Povval, Cherkala, Kasaragod",
+            "Key Buildings": "Main Academic Block, Mechanical Department, CSE Department, Library, Canteen"
+        }
+    },
+    {
+        "id": 47,
+        "question_patterns": [
+            "Main academic block",
+            "Where are classrooms?",
+            "പ്രധാന അക്കാദമിക് ബ്ലോക്ക്",
+            "ക്ലാസ് മുറികൾ എവിടെ?"
+        ],
+        "tags": [
+            "academic",
+            "classrooms",
+            "block",
+            "ബ്ലോക്ക്"
+        ],
+        "answer_facts": {
+            "Location": "Central building along LBS Campus Road",
+            "Features": "Classrooms, faculty rooms, department offices",
+            "Nearby": "Administrative Building, Computer Lab, LBS Makerspace"
+        }
+    },
+    {
+        "id": 48,
+        "question_patterns": [
+            "Mechanical department",
+            "Where is ME department?",
+            "മെക്കാനിക്കൽ വകുപ്പ്",
+            "എംഇ വകുപ്പ് എവിടെ?"
+        ],
+        "tags": [
+            "mechanical",
+            "department",
+            "engineering",
+            "മെക്കാനിക്കൽ"
+        ],
+        "answer_facts": {
+            "Location": "Beside the football ground along LBS Ground Road",
+            "Special Labs": "CAD/CAM lab, Fluid Mechanics Lab, Workshop"
+        }
+    },
+    {
+        "id": 49,
+        "question_patterns": [
+            "Computer department",
+            "Where is CSE department?",
+            "കമ്പ്യൂട്ടർ വകുപ്പ്",
+            "സി‌എസ്‌ഇ വകുപ്പ് എവിടെ?"
+        ],
+        "tags": [
+            "cse",
+            "computer",
+            "department",
+            "കമ്പ്യൂട്ടർ"
+        ],
+        "answer_facts": {
+            "Location": "Uphill from main academic block, near library",
+            "Special Facilities": "Computer labs, networking lab, project labs"
+        }
+    },
+    {
+        "id": 50,
+        "question_patterns": [
+            "College library location",
+            "Where is library?",
+            "Library building",
+            "വായനശാല എവിടെ?",
+            "ലൈബ്രറി കെട്ടിടം"
+        ],
+        "tags": [
+            "library",
+            "reading",
+            "books",
+            "വായനശാല"
+        ],
+        "answer_facts": {
+            "Location": "Near the CSE Department",
+            "Collection": "Over 25,000 books, 100+ print journals, 5000+ e-journals"
+        }
+    },
+    {
+        "id": 51,
+        "question_patterns": [
+            "Canteen location",
+            "Where to eat?",
+            "Cafeteria where?",
+            "കാൻറീൻ എവിടെ?",
+            "ഭക്ഷണശാല"
+        ],
+        "tags": [
+            "canteen",
+            "food",
+            "eating",
+            "കാൻറീൻ"
+        ],
+        "answer_facts": {
+            "Location": "Downhill from the main academic block",
+            "Timings": "8:00 AM to 5:00 PM on working days"
+        }
+    },
+    {
+        "id": 52,
+        "question_patterns": [
+            "Sports ground",
+            "Football ground",
+            "Where to play sports?",
+            "സ്പോർട്സ് ഗ്രൗണ്ട്",
+            "ഫുട്ബോൾ ഗ്രൗണ്ട്"
+        ],
+        "tags": [
+            "sports",
+            "ground",
+            "football",
+            "play",
+            "ഗ്രൗണ്ട്"
+        ],
+        "answer_facts": {
+            "Main Ground": "LBS College Football Ground near ME Department",
+            "Features": "Football field, cricket pitch, track"
+        }
+    },
+    {
+        "id": 53,
+        "question_patterns": [
+            "Hostel location",
+            "Where is hostel?",
+            "Shahanas hostel",
+            "ഹോസ്റ്റൽ എവിടെ?",
+            "ഷഹാനസ് ഹോസ്റ്റൽ"
+        ],
+        "tags": [
+            "hostel",
+            "accommodation",
+            "shahanas",
+            "ഹോസ്റ്റൽ"
+        ],
+        "answer_facts": {
+            "Girls Hostel": "Shahanas Hostel near CSE Department",
+            "Capacity": "200 students",
+            "Facilities": "Wi-Fi, reading room, TV room, indoor games, gym"
+        }
+    },
+    {
+        "id": 54,
+        "question_patterns": [
+            "Bank in campus",
+            "ATM location",
+            "Where is bank?",
+            "ബാങ്ക് എവിടെ?",
+            "എടിഎം സ്ഥാനം"
+        ],
+        "tags": [
+            "bank",
+            "atm",
+            "finance",
+            "ബാങ്ക്"
+        ],
+        "answer_facts": {
+            "Bank": "Central Bank of India (Campus Branch) - temporarily closed",
+            "ATM": "Available near college entrance"
+        }
+    },
+    {
+        "id": 55,
+        "question_patterns": [
+            "Bus garage",
+            "College bus parking",
+            "Bus stand",
+            "ബസ് ഗാരേജ്",
+            "കോളേജ് ബസ് പാർക്കിംഗ്"
+        ],
+        "tags": [
+            "bus",
+            "transport",
+            "garage",
+            "ബസ്"
+        ],
+        "answer_facts": {
+            "Location": "Bus parking area along LBS Campus Road"
+        }
+    },
+    {
+        "id": 56,
+        "question_patterns": [
+            "Makerspace",
+            "Innovation lab",
+            "Project lab",
+            "Where is makerspace?",
+            "മേക്കർസ്പേസ്",
+            "നൂതന ലാബ്"
+        ],
+        "tags": [
+            "makerspace",
+            "innovation",
+            "lab",
+            "മേക്കർസ്പേസ്"
+        ],
+        "answer_facts": {
+            "Location": "Near administrative building and computer lab",
+            "Purpose": "Space for innovation, prototyping, project work"
+        }
+    },
+    {
+        "id": 57,
+        "question_patterns": [
+            "PG section",
+            "Post graduate block",
+            "MCA department location",
+            "പിജി സെക്ഷൻ",
+            "എംസിഎ വകുപ്പ്"
+        ],
+        "tags": [
+            "pg",
+            "postgraduate",
+            "mca",
+            "പിജി"
+        ],
+        "answer_facts": {
+            "Location": "Near Fluid Mechanics Lab along LBS Ground Road",
+            "Programs": "MCA and other PG courses"
+        }
+    }
+]

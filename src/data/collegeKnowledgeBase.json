@@ -25,20 +25,76 @@
     },
     "affiliation": {
       "university": "APJ Abdul Kalam Technological University (KTU)",
-      "approvedBy": ["AICTE", "Government of Kerala"],
+      "approvedBy": [
+        "AICTE",
+        "Government of Kerala"
+      ],
       "accreditation": "NAAC"
     },
     "motto": "Excellence in Engineering Education",
     "logo": "https://lbscek.ac.in/images/logo.png"
   },
   "administration": {
+    "governingBody": {
+      "chairman": {
+        "name": "Sri. Pinarayi Vijayan",
+        "designation": "Hon. Chief Minister"
+      },
+      "viceChairperson": {
+        "name": "Dr. R. Bindu",
+        "designation": "Hon. Minister for Higher Education"
+      }
+    },
+    "executiveCommittee": {
+      "chairperson": {
+        "name": "Dr. Sharmila Mary Joseph IAS",
+        "designation": "Principal Secretary"
+      }
+    },
+    "lbsCentre": {
+      "memberSecretary": {
+        "name": "Prof. (Dr.) M. Abdul Rahiman",
+        "designation": "Member Secretary"
+      }
+    },
+    "boardOfGovernors": {
+      "chairman": {
+        "name": "Prof. M. Thamban Nair",
+        "designation": "Chairman BoG"
+      }
+    },
     "principal": {
-      "name": "Dr. Mohammad Shekoor T",
+      "name": "Dr. Mohammad Sekoor T",
       "qualification": "Ph.D.",
       "email": "principal@lbscek.ac.in",
       "phone": "04994-250790",
       "office": "Administrative Block, First Floor"
     },
+    "administrativeOfficer": {
+      "name": "Mr. Ajesh S",
+      "designation": "Administrative Officer"
+    },
+    "seniorSuperintendent": {
+      "name": "Mr. Santhosh Kumar K"
+    },
+    "juniorSuperintendent": {
+      "name": "Mrs. Shaina Pacha"
+    },
+    "headAccountant": {
+      "name": "Mr. Aneesh Mohan C S"
+    },
+    "deans": [
+      {
+        "name": "Dr. Praveen Kumar K",
+        "designation": "Dean (Academic) & Professor",
+        "department": "Computer Science & Engineering"
+      },
+      {
+        "name": "Dr. Vinodu George",
+        "designation": "Dean (Student Affairs) & Professor",
+        "department": "Computer Science & Engineering"
+      }
+    ],
     "vicePrincipal": {
       "name": "To be updated",
       "email": "viceprincipal@lbscek.ac.in"
@@ -106,50 +162,239 @@
           {
             "code": "CSE",
             "name": "Computer Science and Engineering",
-            "seats": { "total": 120, "government": 72, "management": 36, "nri": 12 },
-            "hod": { "name": "Dr. Faculty Name", "email": "hod.cse@lbscek.ac.in", "phone": "04994-250795" },
+            "seats": {
+              "total": 120,
+              "government": 72,
+              "management": 36,
+              "nri": 12
+            },
+            "hod": {
+              "name": "Dr. Manoj Kumar G",
+              "designation": "Professor & HOD",
+              "email": "hod.cse@lbscek.ac.in",
+              "phone": "04994-250795"
+            },
+            "faculty": [
+              {
+                "name": "Dr. Praveen Kumar K",
+                "designation": "Dean (Academic) & Professor"
+              },
+              {
+                "name": "Dr. Vinodu George",
+                "designation": "Dean (Student Affairs) & Professor"
+              },
+              {
+                "name": "Dr. Anver S R",
+                "designation": "Professor & HOD IT"
+              },
+              {
+                "name": "Dr. Jayalekshmi S",
+                "designation": "Professor"
+              },
+              {
+                "name": "Dr. Sulphikar A",
+                "designation": "Associate Professor"
+              },
+              {
+                "name": "Dr. Rahul C",
+                "designation": "Associate Professor"
+              }
+            ],
             "description": "Covers programming, algorithms, AI, ML, databases, networking",
-            "labs": ["Programming Lab", "Network Lab", "AI/ML Lab", "Project Lab"]
+            "labs": [
+              "Programming Lab",
+              "Network Lab",
+              "AI/ML Lab",
+              "Project Lab"
+            ]
           },
           {
             "code": "ECE",
             "name": "Electronics and Communication Engineering",
-            "seats": { "total": 60, "government": 36, "management": 18, "nri": 6 },
-            "hod": { "name": "Dr. Faculty Name", "email": "hod.ece@lbscek.ac.in", "phone": "04994-250796" },
+            "seats": {
+              "total": 60,
+              "government": 36,
+              "management": 18,
+              "nri": 6
+            },
+            "hod": {
+              "name": "Dr. Mary Reena K. E.",
+              "designation": "Professor & HOD",
+              "email": "hod.ece@lbscek.ac.in",
+              "phone": "04994-250796"
+            },
+            "faculty": [
+              {
+                "name": "Dr. Sheeba K",
+                "designation": "Professor"
+              },
+              {
+                "name": "Dr. Pramod P",
+                "designation": "Professor"
+              },
+              {
+                "name": "Prof. Santo Mathew",
+                "designation": "Associate Professor"
+              },
+              {
+                "name": "Dr. Arathi T",
+                "designation": "Associate Professor"
+              }
+            ],
             "description": "Focus on electronics, communication systems, VLSI, embedded systems",
-            "labs": ["Electronics Lab", "Communication Lab", "VLSI Lab", "Microprocessor Lab"]
+            "labs": [
+              "Electronics Lab",
+              "Communication Lab",
+              "VLSI Lab",
+              "Microprocessor Lab"
+            ]
           },
           {
             "code": "EEE",
             "name": "Electrical and Electronics Engineering",
-            "seats": { "total": 60, "government": 36, "management": 18, "nri": 6 },
-            "hod": { "name": "Dr. Faculty Name", "email": "hod.eee@lbscek.ac.in", "phone": "04994-250797" },
+            "seats": {
+              "total": 60,
+              "government": 36,
+              "management": 18,
+              "nri": 6
+            },
+            "hod": {
+              "name": "Prof. Jayakumar M",
+              "designation": "Associate Professor & HOD",
+              "email": "hod.eee@lbscek.ac.in",
+              "phone": "04994-250797"
+            },
+            "faculty": [
+              {
+                "name": "Dr. Rajashree Raghavan",
+                "designation": "Professor"
+              },
+              {
+                "name": "Dr. Visalakshi V",
+                "designation": "Associate Professor"
+              },
+              {
+                "name": "Prof. Baby Sindhu A.V.",
+                "designation": "Associate Professor"
+              },
+              {
+                "name": "Dr. Aseem K.",
+                "designation": "Associate Professor"
+              }
+            ],
             "description": "Covers power systems, electrical machines, control systems",
-            "labs": ["Electrical Machines Lab", "Power Electronics Lab", "Control Systems Lab"]
+            "labs": [
+              "Electrical Machines Lab",
+              "Power Electronics Lab",
+              "Control Systems Lab"
+            ]
           },
           {
             "code": "ME",
             "name": "Mechanical Engineering",
-            "seats": { "total": 60, "government": 36, "management": 18, "nri": 6 },
-            "hod": { "name": "Dr. Faculty Name", "email": "hod.me@lbscek.ac.in", "phone": "04994-250798" },
+            "seats": {
+              "total": 60,
+              "government": 36,
+              "management": 18,
+              "nri": 6
+            },
+            "hod": {
+              "name": "Dr. Manoj Kumar. C. V.",
+              "designation": "Associate Professor & HOD",
+              "email": "hod.me@lbscek.ac.in",
+              "phone": "04994-250798"
+            },
+            "faculty": [
+              {
+                "name": "Prof. Mahesh P V",
+                "designation": "Associate Professor"
+              },
+              {
+                "name": "Dr. Swaraj Kumar B.",
+                "designation": "Associate Professor"
+              },
+              {
+                "name": "Dr. Anil Kumar B.C.",
+                "designation": "Associate Professor"
+              }
+            ],
             "description": "Thermal engineering, manufacturing, design, automobiles",
-            "labs": ["Workshop", "Thermal Lab", "CAD/CAM Lab", "Fluid Mechanics Lab"]
+            "labs": [
+              "Workshop",
+              "Thermal Lab",
+              "CAD/CAM Lab",
+              "Fluid Mechanics Lab"
+            ]
           },
           {
             "code": "CE",
             "name": "Civil Engineering",
-            "seats": { "total": 60, "government": 36, "management": 18, "nri": 6 },
-            "hod": { "name": "Dr. Faculty Name", "email": "hod.ce@lbscek.ac.in", "phone": "04994-250800" },
+            "seats": {
+              "total": 60,
+              "government": 36,
+              "management": 18,
+              "nri": 6
+            },
+            "hod": {
+              "name": "Dr. Anjali M S",
+              "designation": "Associate Professor & HOD",
+              "email": "hod.ce@lbscek.ac.in",
+              "phone": "04994-250800"
+            },
+            "faculty": [
+              {
+                "name": "Dr. Arun N R",
+                "designation": "Assistant Professor"
+              },
+              {
+                "name": "Prof. Merlin R",
+                "designation": "Assistant Professor"
+              }
+            ],
             "description": "Structural engineering, construction, surveying, environmental",
-            "labs": ["Survey Lab", "Concrete Lab", "Soil Mechanics Lab", "CAD Lab"]
+            "labs": [
+              "Survey Lab",
+              "Concrete Lab",
+              "Soil Mechanics Lab",
+              "CAD Lab"
+            ]
           },
           {
             "code": "IT",
             "name": "Information Technology",
-            "seats": { "total": 60, "government": 36, "management": 18, "nri": 6 },
-            "hod": { "name": "Dr. Faculty Name", "email": "hod.it@lbscek.ac.in", "phone": "04994-250801" },
+            "seats": {
+              "total": 60,
+              "government": 36,
+              "management": 18,
+              "nri": 6
+            },
+            "hod": {
+              "name": "Dr. Anver S R",
+              "designation": "Professor & HOD",
+              "email": "hod.it@lbscek.ac.in",
+              "phone": "04994-250801"
+            },
+            "faculty": [
+              {
+                "name": "Dr. Smithamol M B",
+                "designation": "Professor"
+              },
+              {
+                "name": "Prof. Seena Thomas",
+                "designation": "Assistant Professor"
+              },
+              {
+                "name": "Prof. Ayshath Sithara",
+                "designation": "Assistant Professor"
+              }
+            ],
             "description": "Software development, web technologies, cybersecurity, data science",
-            "labs": ["Software Lab", "Web Development Lab", "Security Lab", "Data Science Lab"]
+            "labs": [
+              "Software Lab",
+              "Web Development Lab",
+              "Security Lab",
+              "Data Science Lab"
+            ]
           }
         ],
         "totalSeats": 420
@@ -160,8 +405,18 @@
         "duration": "2 years (4 semesters)",
         "degree": "Master of Technology",
         "branches": [
-          { "code": "CSE-PG", "name": "Computer Science and Engineering", "seats": 18, "eligibility": "B.Tech in CSE/IT with valid GATE score" },
-          { "code": "PE", "name": "Power Electronics", "seats": 18, "eligibility": "B.Tech in EEE/ECE with valid GATE score" }
+          {
+            "code": "CSE-PG",
+            "name": "Computer Science and Engineering",
+            "seats": 18,
+            "eligibility": "B.Tech in CSE/IT with valid GATE score"
+          },
+          {
+            "code": "PE",
+            "name": "Power Electronics",
+            "seats": 18,
+            "eligibility": "B.Tech in EEE/ECE with valid GATE score"
+          }
         ],
         "totalSeats": 36
       },
@@ -192,9 +447,18 @@
         "Complete admission at allotted college"
       ],
       "quotas": {
-        "government": { "percentage": 60, "description": "Based on KEAM rank, lower fees" },
-        "management": { "percentage": 30, "description": "Based on KEAM rank, higher fees" },
-        "nri": { "percentage": 10, "description": "For NRI candidates, highest fees" }
+        "government": {
+          "percentage": 60,
+          "description": "Based on KEAM rank, lower fees"
+        },
+        "management": {
+          "percentage": 30,
+          "description": "Based on KEAM rank, higher fees"
+        },
+        "nri": {
+          "percentage": 10,
+          "description": "For NRI candidates, highest fees"
+        }
       },
       "documents": [
         "KEAM Admit Card and Score Card",
@@ -229,25 +493,92 @@
   },
   "fees": {
     "btech": {
-      "governmentQuota": { "tuitionFee": 35000, "otherFees": 5000, "total": 40000, "frequency": "per year", "description": "Subsidized fee for merit students" },
-      "managementQuota": { "tuitionFee": 65000, "otherFees": 5000, "total": 70000, "frequency": "per year", "description": "For management quota admissions" },
-      "nriQuota": { "tuitionFee": 100000, "otherFees": 5000, "total": 105000, "frequency": "per year", "description": "For NRI/NRI sponsored candidates" }
+      "governmentQuota": {
+        "tuitionFee": 35000,
+        "otherFees": 5000,
+        "total": 40000,
+        "frequency": "per year",
+        "description": "Subsidized fee for merit students"
+      },
+      "managementQuota": {
+        "tuitionFee": 65000,
+        "otherFees": 5000,
+        "total": 70000,
+        "frequency": "per year",
+        "description": "For management quota admissions"
+      },
+      "nriQuota": {
+        "tuitionFee": 100000,
+        "otherFees": 5000,
+        "total": 105000,
+        "frequency": "per year",
+        "description": "For NRI/NRI sponsored candidates"
+      }
     },
-    "mtech": { "fee": 50000, "frequency": "per year", "stipend": "GATE qualified students receive AICTE stipend of ₹12,400/month" },
-    "mca": { "fee": 45000, "frequency": "per year" },
+    "mtech": {
+      "fee": 50000,
+      "frequency": "per year",
+      "stipend": "GATE qualified students receive AICTE stipend of ₹12,400/month"
+    },
+    "mca": {
+      "fee": 45000,
+      "frequency": "per year"
+    },
     "hostel": {
-      "boysHostel": { "roomRent": 15000, "messFee": 20000, "total": 35000, "frequency": "per year" },
-      "girlsHostel": { "roomRent": 15000, "messFee": 20000, "total": 35000, "frequency": "per year" }
+      "boysHostel": {
+        "roomRent": 15000,
+        "messFee": 20000,
+        "total": 35000,
+        "frequency": "per year"
+      },
+      "girlsHostel": {
+        "roomRent": 15000,
+        "messFee": 20000,
+        "total": 35000,
+        "frequency": "per year"
+      }
     },
-    "other": { "examFee": "As per KTU norms (₹1000-2000 per semester)", "libraryFee": 500, "labFee": 1000, "activityFee": 500 },
+    "other": {
+      "examFee": "As per KTU norms (₹1000-2000 per semester)",
+      "libraryFee": 500,
+      "labFee": 1000,
+      "activityFee": 500
+    },
     "scholarships": [
-      { "name": "E-Grantz", "eligibility": "SC/ST students", "covers": "Full tuition and maintenance" },
-      { "name": "Central Sector Scholarship", "eligibility": "Economically weaker section, top 20% in 12th", "amount": "₹10,000 per year" },
-      { "name": "State Merit Scholarship", "eligibility": "Top performers in KEAM", "amount": "Variable" },
-      { "name": "Fee Concession", "eligibility": "Family income below ₹1 lakh", "covers": "Partial to full fee waiver" }
+      {
+        "name": "E-Grantz",
+        "eligibility": "SC/ST students",
+        "covers": "Full tuition and maintenance"
+      },
+      {
+        "name": "Central Sector Scholarship",
+        "eligibility": "Economically weaker section, top 20% in 12th",
+        "amount": "₹10,000 per year"
+      },
+      {
+        "name": "State Merit Scholarship",
+        "eligibility": "Top performers in KEAM",
+        "amount": "Variable"
+      },
+      {
+        "name": "Fee Concession",
+        "eligibility": "Family income below ₹1 lakh",
+        "covers": "Partial to full fee waiver"
+      }
     ],
-    "paymentModes": ["Online payment through college portal", "Demand Draft in favor of 'Principal, LBSCEK'", "NEFT/RTGS bank transfer", "UPI payment"],
-    "bankDetails": { "bankName": "State Bank of India", "branch": "Kasaragod", "accountName": "LBS College of Engineering", "accountNumber": "To be provided by office", "ifsc": "SBIN0001234" }
+    "paymentModes": [
+      "Online payment through college portal",
+      "Demand Draft in favor of 'Principal, LBSCEK'",
+      "NEFT/RTGS bank transfer",
+      "UPI payment"
+    ],
+    "bankDetails": {
+      "bankName": "State Bank of India",
+      "branch": "Kasaragod",
+      "accountName": "LBS College of Engineering",
+      "accountNumber": "To be provided by office",
+      "ifsc": "SBIN0001234"
+    }
   },
   "facilities": {
     "library": {
@@ -255,83 +586,284 @@
       "location": "Academic Block, Ground Floor",
       "books": 25000,
       "journals": 50,
-      "eResources": ["IEEE Xplore", "Springer", "NPTEL", "NDL"],
-      "facilities": ["Reading room with 100 seats", "Digital library section", "Book bank facility", "Reprography services", "Internet browsing", "Previous year question papers"],
-      "timing": { "weekdays": "9:00 AM - 6:00 PM", "saturday": "9:00 AM - 1:00 PM" },
-      "librarian": { "name": "Librarian Name", "email": "library@lbscek.ac.in" }
+      "eResources": [
+        "IEEE Xplore",
+        "Springer",
+        "NPTEL",
+        "NDL"
+      ],
+      "facilities": [
+        "Reading room with 100 seats",
+        "Digital library section",
+        "Book bank facility",
+        "Reprography services",
+        "Internet browsing",
+        "Previous year question papers"
+      ],
+      "timing": {
+        "weekdays": "9:00 AM - 6:00 PM",
+        "saturday": "9:00 AM - 1:00 PM"
+      },
+      "librarian": {
+        "name": "Librarian Name",
+        "email": "library@lbscek.ac.in"
+      }
     },
     "laboratories": [
-      { "name": "Fab Lab", "description": "Fabrication laboratory with 3D printers, laser cutters, CNC machines", "location": "Workshop Block" },
-      { "name": "Computer Center", "description": "200+ computers with high-speed internet", "location": "IT Block" },
-      { "name": "Language Lab", "description": "Soft skills and communication training", "location": "Academic Block" }
+      {
+        "name": "Fab Lab",
+        "description": "Fabrication laboratory with 3D printers, laser cutters, CNC machines",
+        "location": "Workshop Block"
+      },
+      {
+        "name": "Computer Center",
+        "description": "200+ computers with high-speed internet",
+        "location": "IT Block"
+      },
+      {
+        "name": "Language Lab",
+        "description": "Soft skills and communication training",
+        "location": "Academic Block"
+      }
     ],
-    "internet": { "type": "High-speed broadband", "speed": "100 Mbps leased line", "wifi": "Campus-wide WiFi coverage", "availability": "24x7 in hostels and labs" },
+    "internet": {
+      "type": "High-speed broadband",
+      "speed": "100 Mbps leased line",
+      "wifi": "Campus-wide WiFi coverage",
+      "availability": "24x7 in hostels and labs"
+    },
     "sports": {
-      "outdoor": ["Football ground", "Cricket pitch", "Volleyball court", "Basketball court", "Athletic track", "Badminton court"],
-      "indoor": ["Table tennis", "Carrom", "Chess", "Gym facilities"],
+      "outdoor": [
+        "Football ground",
+        "Cricket pitch",
+        "Volleyball court",
+        "Basketball court",
+        "Athletic track",
+        "Badminton court"
+      ],
+      "indoor": [
+        "Table tennis",
+        "Carrom",
+        "Chess",
+        "Gym facilities"
+      ],
       "achievements": "Regular participation in KTU sports events"
     },
-    "medical": { "description": "First aid facility available", "nearestHospital": "District Hospital Kasaragod (8 km)", "ambulance": "Available on call" },
+    "medical": {
+      "description": "First aid facility available",
+      "nearestHospital": "District Hospital Kasaragod (8 km)",
+      "ambulance": "Available on call"
+    },
     "transport": {
-      "collegeBus": { "available": true, "routes": ["Kasaragod", "Kanhangad", "Uppala", "Manjeshwar"], "fee": "₹5000-10000 per year depending on distance" },
+      "collegeBus": {
+        "available": true,
+        "routes": [
+          "Kasaragod",
+          "Kanhangad",
+          "Uppala",
+          "Manjeshwar"
+        ],
+        "fee": "₹5000-10000 per year depending on distance"
+      },
       "parking": "Separate parking for two-wheelers and cars"
     },
-    "canteen": { "location": "Near Main Building", "timing": "8:00 AM - 7:00 PM", "description": "Subsidized food for students", "menu": ["Breakfast", "Lunch", "Snacks", "Tea/Coffee"], "priceRange": "₹20-80 per meal" },
-    "banking": { "atm": { "bank": "State Bank of India", "location": "Near Main Entrance", "availability": "24x7" } },
-    "other": ["Reprographic centre for photocopying and printing", "Stationery store", "Seminar halls with AV equipment", "Auditorium (500 capacity)", "Conference room"]
+    "canteen": {
+      "location": "Near Main Building",
+      "timing": "8:00 AM - 7:00 PM",
+      "description": "Subsidized food for students",
+      "menu": [
+        "Breakfast",
+        "Lunch",
+        "Snacks",
+        "Tea/Coffee"
+      ],
+      "priceRange": "₹20-80 per meal"
+    },
+    "banking": {
+      "atm": {
+        "bank": "State Bank of India",
+        "location": "Near Main Entrance",
+        "availability": "24x7"
+      }
+    },
+    "other": [
+      "Reprographic centre for photocopying and printing",
+      "Stationery store",
+      "Seminar halls with AV equipment",
+      "Auditorium (500 capacity)",
+      "Conference room"
+    ]
   },
   "hostel": {
     "mensHostel": {
       "name": "Boys Hostel",
       "capacity": 300,
-      "rooms": { "type": "Shared rooms", "occupancy": "2-3 students per room" },
-      "facilities": ["Attached mess", "Common room with TV", "Indoor games", "WiFi connectivity", "Laundry area", "Water purifier", "24x7 water supply", "Generator backup"],
-      "warden": { "name": "Warden Name", "contact": "04994-250810" },
-      "rules": ["Entry before 8:00 PM on weekdays", "Permission required for night stay", "Visitors allowed only in common area", "Ragging strictly prohibited"]
+      "rooms": {
+        "type": "Shared rooms",
+        "occupancy": "2-3 students per room"
+      },
+      "facilities": [
+        "Attached mess",
+        "Common room with TV",
+        "Indoor games",
+        "WiFi connectivity",
+        "Laundry area",
+        "Water purifier",
+        "24x7 water supply",
+        "Generator backup"
+      ],
+      "warden": {
+        "name": "Warden Name",
+        "contact": "04994-250810"
+      },
+      "rules": [
+        "Entry before 8:00 PM on weekdays",
+        "Permission required for night stay",
+        "Visitors allowed only in common area",
+        "Ragging strictly prohibited"
+      ]
     },
     "womensHostel": {
       "name": "Ladies Hostel (Shahanas)",
       "capacity": 200,
-      "rooms": { "type": "Shared rooms", "occupancy": "2-3 students per room" },
-      "facilities": ["Attached mess", "Common room with TV", "Indoor games", "WiFi connectivity", "Laundry area", "Water purifier", "24x7 security", "CCTV surveillance", "Generator backup"],
-      "warden": { "name": "Lady Warden Name", "contact": "04994-250811" },
+      "rooms": {
+        "type": "Shared rooms",
+        "occupancy": "2-3 students per room"
+      },
+      "facilities": [
+        "Attached mess",
+        "Common room with TV",
+        "Indoor games",
+        "WiFi connectivity",
+        "Laundry area",
+        "Water purifier",
+        "24x7 security",
+        "CCTV surveillance",
+        "Generator backup"
+      ],
+      "warden": {
+        "name": "Lady Warden Name",
+        "contact": "04994-250811"
+      },
       "security": "24x7 security guards and lady warden on premises"
     },
     "mess": {
       "type": "Vegetarian and Non-vegetarian options",
-      "timing": { "breakfast": "7:30 AM - 9:00 AM", "lunch": "12:30 PM - 2:00 PM", "snacks": "4:30 PM - 5:30 PM", "dinner": "7:30 PM - 9:00 PM" }
+      "timing": {
+        "breakfast": "7:30 AM - 9:00 AM",
+        "lunch": "12:30 PM - 2:00 PM",
+        "snacks": "4:30 PM - 5:30 PM",
+        "dinner": "7:30 PM - 9:00 PM"
+      }
     },
-    "admission": { "process": "Apply through college admission office", "priority": "Students from distant places, first-come-first-served" }
+    "admission": {
+      "process": "Apply through college admission office",
+      "priority": "Students from distant places, first-come-first-served"
+    }
   },
   "placements": {
-    "overview": { "placementRate": "70-80%", "averagePackage": 450000, "highestPackage": 1200000, "totalCompaniesVisited": 50 },
+    "overview": {
+      "placementRate": "70-80%",
+      "averagePackage": 450000,
+      "highestPackage": 1200000,
+      "totalCompaniesVisited": 50
+    },
     "cell": {
       "name": "Training and Placement Cell",
-      "officer": { "name": "Placement Officer Name", "designation": "Training and Placement Officer", "email": "placement@lbscek.ac.in", "phone": "04994-250794" }
+      "officer": {
+        "name": "Placement Officer Name",
+        "designation": "Training and Placement Officer",
+        "email": "placement@lbscek.ac.in",
+        "phone": "04994-250794"
+      }
     },
     "recruiters": {
-      "topRecruiters": ["Tata Consultancy Services (TCS)", "Infosys", "Wipro", "UST Global", "IBS Software", "Cognizant", "Tech Mahindra", "HCL Technologies", "Mphasis", "L&T Infotech", "Capgemini", "Accenture", "IBM", "Quest Global", "Federal Bank"],
-      "sectors": ["IT/Software", "Core Engineering", "Banking/Finance", "Consulting", "Manufacturing"]
+      "topRecruiters": [
+        "Tata Consultancy Services (TCS)",
+        "Infosys",
+        "Wipro",
+        "UST Global",
+        "IBS Software",
+        "Cognizant",
+        "Tech Mahindra",
+        "HCL Technologies",
+        "Mphasis",
+        "L&T Infotech",
+        "Capgemini",
+        "Accenture",
+        "IBM",
+        "Quest Global",
+        "Federal Bank"
+      ],
+      "sectors": [
+        "IT/Software",
+        "Core Engineering",
+        "Banking/Finance",
+        "Consulting",
+        "Manufacturing"
+      ]
     },
     "packages": {
-      "it": { "minimum": 350000, "average": 450000, "maximum": 1200000 },
-      "core": { "minimum": 300000, "average": 400000, "maximum": 800000 }
+      "it": {
+        "minimum": 350000,
+        "average": 450000,
+        "maximum": 1200000
+      },
+      "core": {
+        "minimum": 300000,
+        "average": 400000,
+        "maximum": 800000
+      }
     },
     "training": {
-      "programs": ["Aptitude training", "Soft skills development", "Technical workshops", "Mock interviews", "Group discussions", "Resume building", "Communication skills"],
-      "partners": ["ICT Academy", "NASSCOM", "Industry experts"]
+      "programs": [
+        "Aptitude training",
+        "Soft skills development",
+        "Technical workshops",
+        "Mock interviews",
+        "Group discussions",
+        "Resume building",
+        "Communication skills"
+      ],
+      "partners": [
+        "ICT Academy",
+        "NASSCOM",
+        "Industry experts"
+      ]
     },
-    "internships": { "mandatory": "Yes, 6-8 weeks in 6th semester", "companies": "Arranged by placement cell or self-sourced", "stipend": "Varies by company" },
+    "internships": {
+      "mandatory": "Yes, 6-8 weeks in 6th semester",
+      "companies": "Arranged by placement cell or self-sourced",
+      "stipend": "Varies by company"
+    },
     "process": {
       "eligibility": "Minimum 60% aggregate, no active backlogs",
-      "steps": ["Company pre-placement talk", "Online aptitude test", "Technical interview", "HR interview", "Offer letter"]
+      "steps": [
+        "Company pre-placement talk",
+        "Online aptitude test",
+        "Technical interview",
+        "HR interview",
+        "Offer letter"
+      ]
     }
   },
   "academics": {
     "calendar": {
-      "oddSemester": { "start": "August", "end": "December", "exams": "December-January" },
-      "evenSemester": { "start": "January", "end": "May", "exams": "May-June" },
-      "vacations": { "summer": "May-July", "onam": "August (10 days)", "christmas": "December (10 days)" }
+      "oddSemester": {
+        "start": "August",
+        "end": "December",
+        "exams": "December-January"
+      },
+      "evenSemester": {
+        "start": "January",
+        "end": "May",
+        "exams": "May-June"
+      },
+      "vacations": {
+        "summer": "May-July",
+        "onam": "August (10 days)",
+        "christmas": "December (10 days)"
+      }
     },
     "examination": {
       "conducting": "APJ Abdul Kalam Technological University (KTU)",
@@ -343,56 +875,1365 @@
     "curriculum": {
       "type": "KTU prescribed syllabus",
       "updates": "Revised periodically by KTU",
-      "features": ["Industry-relevant courses", "Practical oriented labs", "Mini projects from 4th semester", "Main project in 8th semester", "Mandatory internship"]
+      "features": [
+        "Industry-relevant courses",
+        "Practical oriented labs",
+        "Mini projects from 4th semester",
+        "Main project in 8th semester",
+        "Mandatory internship"
+      ]
     }
   },
   "campusLocations": [
-    { "id": "loc-001", "name": "Main Entrance", "malayalamName": "പ്രധാന കവാടം", "description": "College main gate with security checkpoint", "category": "entrance", "coordinates": { "latitude": 12.5234, "longitude": 75.0456 }, "googleMapsLink": "https://maps.google.com/?q=12.5234,75.0456", "landmarks": ["Security post", "Visitor parking"], "accessibility": "Wheelchair accessible" },
-    { "id": "loc-002", "name": "Administrative Block", "malayalamName": "അഡ്മിനിസ്ട്രേറ്റീവ് ബ്ലോക്ക്", "description": "Principal office, administrative offices, admission cell", "category": "administrative", "coordinates": { "latitude": 12.5236, "longitude": 75.0458 }, "googleMapsLink": "https://maps.google.com/?q=12.5236,75.0458", "floors": ["Ground: Reception, Accounts", "First: Principal, Admin"], "services": ["Admission enquiry", "Fee payment", "Certificate requests"] },
-    { "id": "loc-003", "name": "Academic Block", "malayalamName": "അക്കാദമിക് ബ്ലോക്ക്", "description": "Main academic building with classrooms and seminar halls", "category": "academic", "coordinates": { "latitude": 12.5238, "longitude": 75.0460 }, "googleMapsLink": "https://maps.google.com/?q=12.5238,75.0460", "floors": 3, "facilities": ["Classrooms", "Seminar halls", "Faculty rooms"] },
-    { "id": "loc-004", "name": "Mechanical Engineering Department", "malayalamName": "മെക്കാനിക്കൽ എഞ്ചിനീയറിംഗ് വിഭാഗം", "description": "ME department, labs, workshop", "category": "academic", "coordinates": { "latitude": 12.5240, "longitude": 75.0462 }, "googleMapsLink": "https://maps.google.com/?q=12.5240,75.0462", "labs": ["Workshop", "Thermal Lab", "CAD/CAM Lab"] },
-    { "id": "loc-005", "name": "CSE & IT Department", "malayalamName": "സിഎസ്ഇ & ഐടി വിഭാഗം", "description": "Computer Science and IT department with labs", "category": "academic", "coordinates": { "latitude": 12.5242, "longitude": 75.0464 }, "googleMapsLink": "https://maps.google.com/?q=12.5242,75.0464", "labs": ["Programming Lab", "Network Lab", "Project Lab"] },
-    { "id": "loc-006", "name": "Central Library", "malayalamName": "കേന്ദ്ര ഗ്രന്ഥശാല", "description": "Main library with reading room and digital resources", "category": "facility", "coordinates": { "latitude": 12.5244, "longitude": 75.0466 }, "googleMapsLink": "https://maps.google.com/?q=12.5244,75.0466", "timing": "9:00 AM - 6:00 PM", "facilities": ["Reading room", "Digital library", "Book bank"] },
-    { "id": "loc-007", "name": "Fab Lab", "malayalamName": "ഫാബ് ലാബ്", "description": "Fabrication laboratory with modern equipment", "category": "facility", "coordinates": { "latitude": 12.5246, "longitude": 75.0468 }, "googleMapsLink": "https://maps.google.com/?q=12.5246,75.0468", "equipment": ["3D Printers", "Laser Cutter", "CNC Machine"] },
-    { "id": "loc-008", "name": "Computer Center", "malayalamName": "കമ്പ്യൂട്ടർ സെന്റർ", "description": "Main computer lab with internet facility", "category": "facility", "coordinates": { "latitude": 12.5248, "longitude": 75.0470 }, "googleMapsLink": "https://maps.google.com/?q=12.5248,75.0470", "capacity": "200+ computers", "timing": "8:00 AM - 8:00 PM" },
-    { "id": "loc-009", "name": "Reprographic Centre", "malayalamName": "റിപ്രോഗ്രാഫിക് സെന്റർ", "description": "Photocopying, printing, and stationery", "category": "facility", "coordinates": { "latitude": 12.5250, "longitude": 75.0472 }, "googleMapsLink": "https://maps.google.com/?q=12.5250,75.0472", "services": ["Xerox", "Printing", "Binding", "Stationery"] },
-    { "id": "loc-010", "name": "Sports Complex", "malayalamName": "സ്പോർട്സ് കോംപ്ലക്സ്", "description": "Indoor and outdoor sports facilities", "category": "sports", "coordinates": { "latitude": 12.5252, "longitude": 75.0474 }, "googleMapsLink": "https://maps.google.com/?q=12.5252,75.0474", "facilities": ["Volleyball", "Basketball", "Indoor games"] },
-    { "id": "loc-011", "name": "Football Ground", "malayalamName": "ഫുട്ബോൾ ഗ്രൗണ്ട്", "description": "Main football field and athletics track", "category": "sports", "coordinates": { "latitude": 12.5254, "longitude": 75.0476 }, "googleMapsLink": "https://maps.google.com/?q=12.5254,75.0476" },
-    { "id": "loc-012", "name": "Men's Hostel", "malayalamName": "ആൺ ഹോസ്റ്റൽ", "description": "Boys hostel with mess facility", "category": "residential", "coordinates": { "latitude": 12.5256, "longitude": 75.0478 }, "googleMapsLink": "https://maps.google.com/?q=12.5256,75.0478", "capacity": 300, "contact": "04994-250810" },
-    { "id": "loc-013", "name": "Ladies Hostel (Shahanas)", "malayalamName": "വനിതാ ഹോസ്റ്റൽ (ഷഹനാസ്)", "description": "Girls hostel with mess and security", "category": "residential", "coordinates": { "latitude": 12.5258, "longitude": 75.0480 }, "googleMapsLink": "https://maps.google.com/?q=12.5258,75.0480", "capacity": 200, "contact": "04994-250811" },
-    { "id": "loc-014", "name": "Canteen", "malayalamName": "കാന്റീൻ", "description": "College canteen with affordable food", "category": "facility", "coordinates": { "latitude": 12.5260, "longitude": 75.0482 }, "googleMapsLink": "https://maps.google.com/?q=12.5260,75.0482", "timing": "8:00 AM - 7:00 PM" },
-    { "id": "loc-015", "name": "SBI ATM", "malayalamName": "എസ്ബിഐ എടിഎം", "description": "State Bank of India ATM", "category": "utility", "coordinates": { "latitude": 12.5262, "longitude": 75.0484 }, "googleMapsLink": "https://maps.google.com/?q=12.5262,75.0484", "availability": "24x7" },
-    { "id": "loc-016", "name": "Bus Parking", "malayalamName": "ബസ് പാർക്കിംഗ്", "description": "College bus garage and parking area", "category": "transport", "coordinates": { "latitude": 12.5264, "longitude": 75.0486 }, "googleMapsLink": "https://maps.google.com/?q=12.5264,75.0486" }
+    {
+      "id": "loc-001",
+      "name": "Main Entrance",
+      "malayalamName": "പ്രധാന കവാടം",
+      "description": "College main gate with security checkpoint",
+      "category": "entrance",
+      "coordinates": {
+        "latitude": 12.5234,
+        "longitude": 75.0456
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5234,75.0456",
+      "landmarks": [
+        "Security post",
+        "Visitor parking"
+      ],
+      "accessibility": "Wheelchair accessible"
+    },
+    {
+      "id": "loc-002",
+      "name": "Administrative Block",
+      "malayalamName": "അഡ്മിനിസ്ട്രേറ്റീവ് ബ്ലോക്ക്",
+      "description": "Principal office, administrative offices, admission cell",
+      "category": "administrative",
+      "coordinates": {
+        "latitude": 12.5236,
+        "longitude": 75.0458
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5236,75.0458",
+      "floors": [
+        "Ground: Reception, Accounts",
+        "First: Principal, Admin"
+      ],
+      "services": [
+        "Admission enquiry",
+        "Fee payment",
+        "Certificate requests"
+      ]
+    },
+    {
+      "id": "loc-003",
+      "name": "Academic Block",
+      "malayalamName": "അക്കാദമിക് ബ്ലോക്ക്",
+      "description": "Main academic building with classrooms and seminar halls",
+      "category": "academic",
+      "coordinates": {
+        "latitude": 12.5238,
+        "longitude": 75.0460
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5238,75.0460",
+      "floors": 3,
+      "facilities": [
+        "Classrooms",
+        "Seminar halls",
+        "Faculty rooms"
+      ]
+    },
+    {
+      "id": "loc-004",
+      "name": "Mechanical Engineering Department",
+      "malayalamName": "മെക്കാനിക്കൽ എഞ്ചിനീയറിംഗ് വിഭാഗം",
+      "description": "ME department, labs, workshop",
+      "category": "academic",
+      "coordinates": {
+        "latitude": 12.5240,
+        "longitude": 75.0462
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5240,75.0462",
+      "labs": [
+        "Workshop",
+        "Thermal Lab",
+        "CAD/CAM Lab"
+      ]
+    },
+    {
+      "id": "loc-005",
+      "name": "CSE & IT Department",
+      "malayalamName": "സിഎസ്ഇ & ഐടി വിഭാഗം",
+      "description": "Computer Science and IT department with labs",
+      "category": "academic",
+      "coordinates": {
+        "latitude": 12.5242,
+        "longitude": 75.0464
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5242,75.0464",
+      "labs": [
+        "Programming Lab",
+        "Network Lab",
+        "Project Lab"
+      ]
+    },
+    {
+      "id": "loc-006",
+      "name": "Central Library",
+      "malayalamName": "കേന്ദ്ര ഗ്രന്ഥശാല",
+      "description": "Main library with reading room and digital resources",
+      "category": "facility",
+      "coordinates": {
+        "latitude": 12.5244,
+        "longitude": 75.0466
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5244,75.0466",
+      "timing": "9:00 AM - 6:00 PM",
+      "facilities": [
+        "Reading room",
+        "Digital library",
+        "Book bank"
+      ]
+    },
+    {
+      "id": "loc-007",
+      "name": "Fab Lab",
+      "malayalamName": "ഫാബ് ലാബ്",
+      "description": "Fabrication laboratory with modern equipment",
+      "category": "facility",
+      "coordinates": {
+        "latitude": 12.5246,
+        "longitude": 75.0468
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5246,75.0468",
+      "equipment": [
+        "3D Printers",
+        "Laser Cutter",
+        "CNC Machine"
+      ]
+    },
+    {
+      "id": "loc-008",
+      "name": "Computer Center",
+      "malayalamName": "കമ്പ്യൂട്ടർ സെന്റർ",
+      "description": "Main computer lab with internet facility",
+      "category": "facility",
+      "coordinates": {
+        "latitude": 12.5248,
+        "longitude": 75.0470
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5248,75.0470",
+      "capacity": "200+ computers",
+      "timing": "8:00 AM - 8:00 PM"
+    },
+    {
+      "id": "loc-009",
+      "name": "Reprographic Centre",
+      "malayalamName": "റിപ്രോഗ്രാഫിക് സെന്റർ",
+      "description": "Photocopying, printing, and stationery",
+      "category": "facility",
+      "coordinates": {
+        "latitude": 12.5250,
+        "longitude": 75.0472
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5250,75.0472",
+      "services": [
+        "Xerox",
+        "Printing",
+        "Binding",
+        "Stationery"
+      ]
+    },
+    {
+      "id": "loc-010",
+      "name": "Sports Complex",
+      "malayalamName": "സ്പോർട്സ് കോംപ്ലക്സ്",
+      "description": "Indoor and outdoor sports facilities",
+      "category": "sports",
+      "coordinates": {
+        "latitude": 12.5252,
+        "longitude": 75.0474
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5252,75.0474",
+      "facilities": [
+        "Volleyball",
+        "Basketball",
+        "Indoor games"
+      ]
+    },
+    {
+      "id": "loc-011",
+      "name": "Football Ground",
+      "malayalamName": "ഫുട്ബോൾ ഗ്രൗണ്ട്",
+      "description": "Main football field and athletics track",
+      "category": "sports",
+      "coordinates": {
+        "latitude": 12.5254,
+        "longitude": 75.0476
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5254,75.0476"
+    },
+    {
+      "id": "loc-012",
+      "name": "Men's Hostel",
+      "malayalamName": "ആൺ ഹോസ്റ്റൽ",
+      "description": "Boys hostel with mess facility",
+      "category": "residential",
+      "coordinates": {
+        "latitude": 12.5256,
+        "longitude": 75.0478
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5256,75.0478",
+      "capacity": 300,
+      "contact": "04994-250810"
+    },
+    {
+      "id": "loc-013",
+      "name": "Ladies Hostel (Shahanas)",
+      "malayalamName": "വനിതാ ഹോസ്റ്റൽ (ഷഹനാസ്)",
+      "description": "Girls hostel with mess and security",
+      "category": "residential",
+      "coordinates": {
+        "latitude": 12.5258,
+        "longitude": 75.0480
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5258,75.0480",
+      "capacity": 200,
+      "contact": "04994-250811"
+    },
+    {
+      "id": "loc-014",
+      "name": "Canteen",
+      "malayalamName": "കാന്റീൻ",
+      "description": "College canteen with affordable food",
+      "category": "facility",
+      "coordinates": {
+        "latitude": 12.5260,
+        "longitude": 75.0482
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5260,75.0482",
+      "timing": "8:00 AM - 7:00 PM"
+    },
+    {
+      "id": "loc-015",
+      "name": "SBI ATM",
+      "malayalamName": "എസ്ബിഐ എടിഎം",
+      "description": "State Bank of India ATM",
+      "category": "utility",
+      "coordinates": {
+        "latitude": 12.5262,
+        "longitude": 75.0484
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5262,75.0484",
+      "availability": "24x7"
+    },
+    {
+      "id": "loc-016",
+      "name": "Bus Parking",
+      "malayalamName": "ബസ് പാർക്കിംഗ്",
+      "description": "College bus garage and parking area",
+      "category": "transport",
+      "coordinates": {
+        "latitude": 12.5264,
+        "longitude": 75.0486
+      },
+      "googleMapsLink": "https://maps.google.com/?q=12.5264,75.0486"
+    }
   ],
   "events": {
     "annual": [
-      { "name": "Asthra", "type": "Technical Festival", "month": "February-March", "description": "Annual technical fest with competitions and workshops" },
-      { "name": "Dhwani", "type": "Cultural Festival", "month": "March", "description": "Cultural fest with arts, music, and dance" },
-      { "name": "Sports Day", "type": "Sports", "month": "January", "description": "Annual sports meet" }
+      {
+        "name": "Asthra",
+        "type": "Technical Festival",
+        "month": "February-March",
+        "description": "Annual technical fest with competitions and workshops"
+      },
+      {
+        "name": "Dhwani",
+        "type": "Cultural Festival",
+        "month": "March",
+        "description": "Cultural fest with arts, music, and dance"
+      },
+      {
+        "name": "Sports Day",
+        "type": "Sports",
+        "month": "January",
+        "description": "Annual sports meet"
+      }
     ],
-    "regular": ["Technical workshops", "Industry expert talks", "Coding competitions", "Project exhibitions"]
+    "regular": [
+      "Technical workshops",
+      "Industry expert talks",
+      "Coding competitions",
+      "Project exhibitions"
+    ]
   },
   "faqs": [
-    { "id": "faq-001", "question": "What is the admission process for B.Tech?", "questionMalayalam": "B.Tech-ലേക്കുള്ള പ്രവേശന നടപടിക്രമം എന്താണ്?", "answer": "B.Tech admission is through KEAM (Kerala Engineering Entrance Exam). You need to appear for KEAM, get a rank, and participate in centralized counselling to get admission. The eligibility is 10+2 with Physics, Chemistry, and Mathematics with minimum 50% marks.", "answerMalayalam": "ബി.ടെക് പ്രവേശനം KEAM (കേരള എഞ്ചിനീയറിംഗ് എൻട്രൻസ് എക്സാം) വഴിയാണ്. നിങ്ങൾ KEAM-ൽ പങ്കെടുത്ത് റാങ്ക് നേടി കേന്ദ്രീകൃത കൗൺസിലിംഗിൽ പങ്കെടുക്കണം.", "category": "admission", "keywords": ["admission", "btech", "keam", "entrance", "process"] },
-    { "id": "faq-002", "question": "What is the fee structure?", "questionMalayalam": "ഫീസ് ഘടന എന്താണ്?", "answer": "B.Tech fees: Government quota is around ₹40,000 per year, Management quota is around ₹70,000 per year, and NRI quota is around ₹1,05,000 per year. Hostel fees are approximately ₹35,000 per year.", "answerMalayalam": "ബി.ടെക് ഫീസ്: സർക്കാർ ക്വാട്ട ₹40,000, മാനേജ്മെന്റ് ക്വാട്ട ₹70,000, NRI ക്വാട്ട ₹1,05,000 പ്രതിവർഷം. ഹോസ്റ്റൽ ഫീസ് ഏകദേശം ₹35,000.", "category": "fees", "keywords": ["fee", "fees", "cost", "tuition", "hostel fee", "amount"] },
-    { "id": "faq-003", "question": "What are the courses available?", "questionMalayalam": "ലഭ്യമായ കോഴ്സുകൾ ഏതൊക്കെ?", "answer": "We offer B.Tech in 6 branches: CSE, ECE, EEE, Mechanical, Civil, and IT. We also have M.Tech in CSE and Power Electronics, and MCA program.", "answerMalayalam": "ഞങ്ങൾ 6 ബ്രാഞ്ചുകളിൽ ബി.ടെക് നൽകുന്നു: CSE, ECE, EEE, മെക്കാനിക്കൽ, സിവിൽ, IT. M.Tech CSE-ലും പവർ ഇലക്ട്രോണിക്സിലും, MCA പ്രോഗ്രാമും ഉണ്ട്.", "category": "courses", "keywords": ["course", "courses", "branch", "program", "btech", "mtech", "mca"] },
-    { "id": "faq-004", "question": "How are the placements?", "questionMalayalam": "പ്ലേസ്മെന്റുകൾ എങ്ങനെയാണ്?", "answer": "Our placement rate is around 70-80%. Average package is ₹4-6 LPA with highest reaching ₹12 LPA. Companies like TCS, Infosys, Wipro, UST Global, and 50+ others recruit from our campus.", "answerMalayalam": "ഞങ്ങളുടെ പ്ലേസ്മെന്റ് നിരക്ക് 70-80% ആണ്. ശരാശരി പാക്കേജ് ₹4-6 LPA, ഉയർന്നത് ₹12 LPA. TCS, Infosys, Wipro, UST Global തുടങ്ങി 50+ കമ്പനികൾ റിക്രൂട്ട് ചെയ്യുന്നു.", "category": "placements", "keywords": ["placement", "job", "salary", "package", "company", "recruit"] },
-    { "id": "faq-005", "question": "Is hostel facility available?", "questionMalayalam": "ഹോസ്റ്റൽ സൗകര്യം ലഭ്യമാണോ?", "answer": "Yes! We have separate hostels for boys (300 capacity) and girls (Shahanas Hostel with 200 capacity). Both have mess, WiFi, common room, and 24x7 facilities. Hostel fee is around ₹35,000 per year.", "answerMalayalam": "അതെ! ആൺകുട്ടികൾക്കും (300 ശേഷി) പെൺകുട്ടികൾക്കും (ഷഹനാസ് ഹോസ്റ്റൽ, 200 ശേഷി) പ്രത്യേക ഹോസ്റ്റലുകൾ ഉണ്ട്. മെസ്, വൈഫൈ, കോമൺ റൂം എല്ലാം ലഭ്യമാണ്.", "category": "hostel", "keywords": ["hostel", "accommodation", "stay", "room", "mess", "girls hostel", "boys hostel"] },
-    { "id": "faq-006", "question": "Who is the Principal?", "questionMalayalam": "പ്രിൻസിപ്പൽ ആരാണ്?", "answer": "The Principal is Dr. Mohammad Shekoor T. You can contact the principal's office at 04994-250790 or email principal@lbscek.ac.in.", "answerMalayalam": "പ്രിൻസിപ്പൽ ഡോ. മുഹമ്മദ് ഷെക്കൂർ ടി ആണ്. ഫോൺ: 04994-250790, ഇമെയിൽ: principal@lbscek.ac.in.", "category": "administration", "keywords": ["principal", "head", "director", "contact"] },
-    { "id": "faq-007", "question": "Where is the college located?", "questionMalayalam": "കോളേജ് എവിടെയാണ്?", "answer": "LBS College of Engineering is located at Povval, Kasaragod, Kerala - 671542. It's about 8 km from Kasaragod town center and well connected by road.", "answerMalayalam": "എൽബിഎസ് കോളേജ് ഓഫ് എഞ്ചിനീയറിംഗ് പൊവ്വൽ, കാസർകോഡ്, കേരളം - 671542 ൽ സ്ഥിതി ചെയ്യുന്നു.", "category": "location", "keywords": ["location", "address", "where", "place", "situated"] },
-    { "id": "faq-008", "question": "What are the library facilities?", "questionMalayalam": "ലൈബ്രറി സൗകര്യങ്ങൾ എന്തൊക്കെ?", "answer": "Our Central Library has 25,000+ books, digital resources including IEEE and Springer access, reading room with 100 seats, and book bank facility. Timing is 9 AM to 6 PM on weekdays.", "answerMalayalam": "ഞങ്ങളുടെ കേന്ദ്ര ലൈബ്രറിയിൽ 25,000+ പുസ്തകങ്ങൾ, IEEE, Springer ഡിജിറ്റൽ റിസോഴ്സുകൾ, 100 സീറ്റുള്ള റീഡിംഗ് റൂം ഉണ്ട്.", "category": "facilities", "keywords": ["library", "books", "reading", "study"] },
-    { "id": "faq-009", "question": "What is the eligibility for B.Tech?", "questionMalayalam": "ബി.ടെക്കിന് യോഗ്യത എന്താണ്?", "answer": "For B.Tech, you need 10+2 (or equivalent) with Physics, Chemistry, and Mathematics. Minimum 50% aggregate marks in PCM is required (45% for reserved categories). There's no upper age limit.", "answerMalayalam": "ബി.ടെക്കിന്, ഫിസിക്സ്, കെമിസ്ട്രി, മാത്തമാറ്റിക്സ് ഉള്ള 10+2 വേണം. PCM-ൽ കുറഞ്ഞത് 50% മാർക്ക് ആവശ്യമാണ്.", "category": "admission", "keywords": ["eligibility", "qualification", "criteria", "marks", "percentage"] },
-    { "id": "faq-010", "question": "How to contact the college?", "questionMalayalam": "കോളേജുമായി എങ്ങനെ ബന്ധപ്പെടാം?", "answer": "You can contact us at:\n📞 Phone: 04994-250790\n📧 Email: lbscek@gmail.com\n🌐 Website: https://lbscek.ac.in\n⏰ Office Hours: Monday-Saturday, 10 AM - 5 PM", "answerMalayalam": "📞 ഫോൺ: 04994-250790\n📧 ഇമെയിൽ: lbscek@gmail.com\n🌐 വെബ്സൈറ്റ്: https://lbscek.ac.in\n⏰ ഓഫീസ് സമയം: തിങ്കൾ-ശനി, 10 AM - 5 PM", "category": "contact", "keywords": ["contact", "phone", "email", "call", "reach", "office"] }
+    {
+      "id": "faq-001",
+      "question": "What is the admission process for B.Tech?",
+      "questionMalayalam": "B.Tech-ലേക്കുള്ള പ്രവേശന നടപടിക്രമം എന്താണ്?",
+      "answer": "B.Tech admission is through KEAM (Kerala Engineering Entrance Exam). You need to appear for KEAM, get a rank, and participate in centralized counselling to get admission. The eligibility is 10+2 with Physics, Chemistry, and Mathematics with minimum 50% marks.",
+      "answerMalayalam": "ബി.ടെക് പ്രവേശനം KEAM (കേരള എഞ്ചിനീയറിംഗ് എൻട്രൻസ് എക്സാം) വഴിയാണ്. നിങ്ങൾ KEAM-ൽ പങ്കെടുത്ത് റാങ്ക് നേടി കേന്ദ്രീകൃത കൗൺസിലിംഗിൽ പങ്കെടുക്കണം.",
+      "category": "admission",
+      "keywords": [
+        "admission",
+        "btech",
+        "keam",
+        "entrance",
+        "process"
+      ]
+    },
+    {
+      "id": "faq-002",
+      "question": "What is the fee structure?",
+      "questionMalayalam": "ഫീസ് ഘടന എന്താണ്?",
+      "answer": "B.Tech fees: Government quota is around ₹40,000 per year, Management quota is around ₹70,000 per year, and NRI quota is around ₹1,05,000 per year. Hostel fees are approximately ₹35,000 per year.",
+      "answerMalayalam": "ബി.ടെക് ഫീസ്: സർക്കാർ ക്വാട്ട ₹40,000, മാനേജ്മെന്റ് ക്വാട്ട ₹70,000, NRI ക്വാട്ട ₹1,05,000 പ്രതിവർഷം. ഹോസ്റ്റൽ ഫീസ് ഏകദേശം ₹35,000.",
+      "category": "fees",
+      "keywords": [
+        "fee",
+        "fees",
+        "cost",
+        "tuition",
+        "hostel fee",
+        "amount"
+      ]
+    },
+    {
+      "id": "faq-003",
+      "question": "What are the courses available?",
+      "questionMalayalam": "ലഭ്യമായ കോഴ്സുകൾ ഏതൊക്കെ?",
+      "answer": "We offer B.Tech in 6 branches: CSE, ECE, EEE, Mechanical, Civil, and IT. We also have M.Tech in CSE and Power Electronics, and MCA program.",
+      "answerMalayalam": "ഞങ്ങൾ 6 ബ്രാഞ്ചുകളിൽ ബി.ടെക് നൽകുന്നു: CSE, ECE, EEE, മെക്കാനിക്കൽ, സിവിൽ, IT. M.Tech CSE-ലും പവർ ഇലക്ട്രോണിക്സിലും, MCA പ്രോഗ്രാമും ഉണ്ട്.",
+      "category": "courses",
+      "keywords": [
+        "course",
+        "courses",
+        "branch",
+        "program",
+        "btech",
+        "mtech",
+        "mca"
+      ]
+    },
+    {
+      "id": "faq-004",
+      "question": "How are the placements?",
+      "questionMalayalam": "പ്ലേസ്മെന്റുകൾ എങ്ങനെയാണ്?",
+      "answer": "Our placement rate is around 70-80%. Average package is ₹4-6 LPA with highest reaching ₹12 LPA. Companies like TCS, Infosys, Wipro, UST Global, and 50+ others recruit from our campus.",
+      "answerMalayalam": "ഞങ്ങളുടെ പ്ലേസ്മെന്റ് നിരക്ക് 70-80% ആണ്. ശരാശരി പാക്കേജ് ₹4-6 LPA, ഉയർന്നത് ₹12 LPA. TCS, Infosys, Wipro, UST Global തുടങ്ങി 50+ കമ്പനികൾ റിക്രൂട്ട് ചെയ്യുന്നു.",
+      "category": "placements",
+      "keywords": [
+        "placement",
+        "job",
+        "salary",
+        "package",
+        "company",
+        "recruit"
+      ]
+    },
+    {
+      "id": "faq-005",
+      "question": "Is hostel facility available?",
+      "questionMalayalam": "ഹോസ്റ്റൽ സൗകര്യം ലഭ്യമാണോ?",
+      "answer": "Yes! We have separate hostels for boys (300 capacity) and girls (Shahanas Hostel with 200 capacity). Both have mess, WiFi, common room, and 24x7 facilities. Hostel fee is around ₹35,000 per year.",
+      "answerMalayalam": "അതെ! ആൺകുട്ടികൾക്കും (300 ശേഷി) പെൺകുട്ടികൾക്കും (ഷഹനാസ് ഹോസ്റ്റൽ, 200 ശേഷി) പ്രത്യേക ഹോസ്റ്റലുകൾ ഉണ്ട്. മെസ്, വൈഫൈ, കോമൺ റൂം എല്ലാം ലഭ്യമാണ്.",
+      "category": "hostel",
+      "keywords": [
+        "hostel",
+        "accommodation",
+        "stay",
+        "room",
+        "mess",
+        "girls hostel",
+        "boys hostel"
+      ]
+    },
+    {
+      "id": "faq-006",
+      "question": "Who is the Principal?",
+      "questionMalayalam": "പ്രിൻസിപ്പൽ ആരാണ്?",
+      "answer": "The Principal is Dr. Mohammad Shekoor T. You can contact the principal's office at 04994-250790 or email principal@lbscek.ac.in.",
+      "answerMalayalam": "പ്രിൻസിപ്പൽ ഡോ. മുഹമ്മദ് ഷെക്കൂർ ടി ആണ്. ഫോൺ: 04994-250790, ഇമെയിൽ: principal@lbscek.ac.in.",
+      "category": "administration",
+      "keywords": [
+        "principal",
+        "head",
+        "director",
+        "contact"
+      ]
+    },
+    {
+      "id": "faq-007",
+      "question": "Where is the college located?",
+      "questionMalayalam": "കോളേജ് എവിടെയാണ്?",
+      "answer": "LBS College of Engineering is located at Povval, Kasaragod, Kerala - 671542. It's about 8 km from Kasaragod town center and well connected by road.",
+      "answerMalayalam": "എൽബിഎസ് കോളേജ് ഓഫ് എഞ്ചിനീയറിംഗ് പൊവ്വൽ, കാസർകോഡ്, കേരളം - 671542 ൽ സ്ഥിതി ചെയ്യുന്നു.",
+      "category": "location",
+      "keywords": [
+        "location",
+        "address",
+        "where",
+        "place",
+        "situated"
+      ]
+    },
+    {
+      "id": "faq-008",
+      "question": "What are the library facilities?",
+      "questionMalayalam": "ലൈബ്രറി സൗകര്യങ്ങൾ എന്തൊക്കെ?",
+      "answer": "Our Central Library has 25,000+ books, digital resources including IEEE and Springer access, reading room with 100 seats, and book bank facility. Timing is 9 AM to 6 PM on weekdays.",
+      "answerMalayalam": "ഞങ്ങളുടെ കേന്ദ്ര ലൈബ്രറിയിൽ 25,000+ പുസ്തകങ്ങൾ, IEEE, Springer ഡിജിറ്റൽ റിസോഴ്സുകൾ, 100 സീറ്റുള്ള റീഡിംഗ് റൂം ഉണ്ട്.",
+      "category": "facilities",
+      "keywords": [
+        "library",
+        "books",
+        "reading",
+        "study"
+      ]
+    },
+    {
+      "id": "faq-009",
+      "question": "What is the eligibility for B.Tech?",
+      "questionMalayalam": "ബി.ടെക്കിന് യോഗ്യത എന്താണ്?",
+      "answer": "For B.Tech, you need 10+2 (or equivalent) with Physics, Chemistry, and Mathematics. Minimum 50% aggregate marks in PCM is required (45% for reserved categories). There's no upper age limit.",
+      "answerMalayalam": "ബി.ടെക്കിന്, ഫിസിക്സ്, കെമിസ്ട്രി, മാത്തമാറ്റിക്സ് ഉള്ള 10+2 വേണം. PCM-ൽ കുറഞ്ഞത് 50% മാർക്ക് ആവശ്യമാണ്.",
+      "category": "admission",
+      "keywords": [
+        "eligibility",
+        "qualification",
+        "criteria",
+        "marks",
+        "percentage"
+      ]
+    },
+    {
+      "id": "faq-010",
+      "question": "How to contact the college?",
+      "questionMalayalam": "കോളേജുമായി എങ്ങനെ ബന്ധപ്പെടാം?",
+      "answer": "You can contact us at:\n📞 Phone: 04994-250790\n📧 Email: lbscek@gmail.com\n🌐 Website: https://lbscek.ac.in\n⏰ Office Hours: Monday-Saturday, 10 AM - 5 PM",
+      "answerMalayalam": "📞 ഫോൺ: 04994-250790\n📧 ഇമെയിൽ: lbscek@gmail.com\n🌐 വെബ്സൈറ്റ്: https://lbscek.ac.in\n⏰ ഓഫീസ് സമയം: തിങ്കൾ-ശനി, 10 AM - 5 PM",
+      "category": "contact",
+      "keywords": [
+        "contact",
+        "phone",
+        "email",
+        "call",
+        "reach",
+        "office"
+      ]
+    }
   ],
   "humanResponses": {
     "greetings": {
-      "morning": ["Good morning! Welcome to LBS College of Engineering. How can I help you today?", "Morning! Great to have you here. What would you like to know about our college?"],
-      "afternoon": ["Good afternoon! I'm here to help you with any questions about LBS College.", "Hello! How can I assist you this afternoon?"],
-      "evening": ["Good evening! Welcome! Feel free to ask me anything about our college.", "Evening! What can I help you with today?"],
-      "general": ["Hello! Welcome to LBS College of Engineering assistant. How may I help you?", "Hi there! I'd be happy to help you with information about our college.", "Namaste! What would you like to know about LBS College of Engineering?"]
+      "morning": [
+        "Good morning! Welcome to LBS College of Engineering. How can I help you today?",
+        "Morning! Great to have you here. What would you like to know about our college?"
+      ],
+      "afternoon": [
+        "Good afternoon! I'm here to help you with any questions about LBS College.",
+        "Hello! How can I assist you this afternoon?"
+      ],
+      "evening": [
+        "Good evening! Welcome! Feel free to ask me anything about our college.",
+        "Evening! What can I help you with today?"
+      ],
+      "general": [
+        "Hello! Welcome to LBS College of Engineering assistant. How may I help you?",
+        "Hi there! I'd be happy to help you with information about our college.",
+        "Namaste! What would you like to know about LBS College of Engineering?"
+      ]
     },
-    "closing": ["Is there anything else you'd like to know?", "Feel free to ask if you have more questions!", "Let me know if you need any other information.", "Happy to help with anything else!"],
-    "notFound": ["I'm not 100% sure about that specific detail. Let me suggest you contact our office at 04994-250790 for accurate information.", "That's a great question! For the most up-to-date info on this, I'd recommend calling our admission cell at 04994-250792.", "I want to make sure you get accurate information. Could you try contacting us at lbscek@gmail.com for this specific query?"],
-    "confirmation": ["Got it! Let me find that information for you.", "Sure thing! Here's what I know about that.", "Great question! Here's the information you need."]
+    "closing": [
+      "Is there anything else you'd like to know?",
+      "Feel free to ask if you have more questions!",
+      "Let me know if you need any other information.",
+      "Happy to help with anything else!"
+    ],
+    "notFound": [
+      "I'm not 100% sure about that specific detail. Let me suggest you contact our office at 04994-250790 for accurate information.",
+      "That's a great question! For the most up-to-date info on this, I'd recommend calling our admission cell at 04994-250792.",
+      "I want to make sure you get accurate information. Could you try contacting us at lbscek@gmail.com for this specific query?"
+    ],
+    "confirmation": [
+      "Got it! Let me find that information for you.",
+      "Sure thing! Here's what I know about that.",
+      "Great question! Here's the information you need."
+    ]
+  },
+  "clubs": [
+    {
+      "name": "µLearn (Mulearn)",
+      "category": "IEDC / Learning Platform",
+      "description": "An innovative learning platform offering personalized, adaptive education through interactive content and community collaboration, helping learners build skills at their own pace.",
+      "keywords": [
+        "mulearn",
+        "learning",
+        "iedc",
+        "skills",
+        "community"
+      ]
+    },
+    {
+      "name": "TinkerHub",
+      "category": "IEDC / Innovation",
+      "description": "A community of tinkerers, makers, and students working to empower people who are passionate about innovation through hands-on learning and collaboration.",
+      "keywords": [
+        "tinkerhub",
+        "innovation",
+        "makers",
+        "iedc",
+        "startup"
+      ]
+    },
+    {
+      "name": "FOSS Club",
+      "category": "Open Source",
+      "description": "A student community passionate about Free and Open Source Software, focused on learning, sharing, collaboration, and contributing to open technologies.",
+      "keywords": [
+        "foss",
+        "open source",
+        "linux",
+        "free software",
+        "github"
+      ]
+    },
+    {
+      "name": "Cyber Community",
+      "category": "Cybersecurity",
+      "description": "A student-led group focused on cybersecurity, ethical hacking, and responsible technology use through hands-on workshops, projects, talks, and competitions.",
+      "keywords": [
+        "cyber",
+        "security",
+        "hacking",
+        "ethical hacking",
+        "ctf"
+      ]
+    },
+    {
+      "name": "Microsoft Learn Student Ambassadors (MLSA)",
+      "category": "Industry Program",
+      "description": "A global Microsoft initiative that empowers students with access to learning resources, certifications, mentorship, and leadership opportunities in modern technologies.",
+      "keywords": [
+        "mlsa",
+        "microsoft",
+        "azure",
+        "certification",
+        "ambassador"
+      ]
+    },
+    {
+      "name": "Coders Club",
+      "category": "Programming",
+      "description": "The programming hub at LBSCEK that supports beginners and advanced learners through coding sessions, workshops, competitions, and real-world projects.",
+      "keywords": [
+        "coding",
+        "programming",
+        "competitive",
+        "dsa",
+        "algorithms"
+      ]
+    },
+    {
+      "name": "Galaxia Club",
+      "category": "Space Science",
+      "description": "The official space club of LBSCEK, dedicated to astronomy, space science, and space technology through events, expert interactions, and innovation activities.",
+      "keywords": [
+        "space",
+        "astronomy",
+        "galaxia",
+        "isro",
+        "rocket"
+      ]
+    },
+    {
+      "name": "GDG on Campus",
+      "category": "Developer Community",
+      "description": "A Google Developer Groups student community focused on web and mobile development, AI/ML, cloud computing, design thinking, and peer learning.",
+      "keywords": [
+        "gdg",
+        "google",
+        "android",
+        "flutter",
+        "developer"
+      ]
+    },
+    {
+      "name": "YIP Club",
+      "category": "Government Initiative",
+      "description": "A Kerala K-DISC initiative that empowers students to develop real-world solutions for sustainable and inclusive development.",
+      "keywords": [
+        "yip",
+        "innovation",
+        "kdisc",
+        "kerala",
+        "startup"
+      ]
+    },
+    {
+      "name": "Women Techmakers (WTM)",
+      "category": "Women in Technology",
+      "description": "A global Google program providing visibility, community, and resources to encourage and empower women in technology.",
+      "keywords": [
+        "wtm",
+        "women",
+        "tech",
+        "google",
+        "diversity"
+      ]
+    },
+    {
+      "name": "KBA Chapter (Kerala Blockchain Academy)",
+      "category": "Blockchain",
+      "description": "The official Kerala Blockchain Academy chapter at LBSCEK, promoting blockchain awareness, learning, and hands-on innovation.",
+      "keywords": [
+        "kba",
+        "blockchain",
+        "web3",
+        "crypto",
+        "nft"
+      ]
+    },
+    {
+      "name": "WOW (Women of Wonders)",
+      "category": "Women Empowerment",
+      "description": "A student-led initiative that empowers women through creativity, leadership, inclusion, and social impact.",
+      "keywords": [
+        "wow",
+        "women",
+        "empowerment",
+        "leadership",
+        "community"
+      ]
+    },
+    {
+      "name": "AWS Cloud Club",
+      "category": "Cloud Computing",
+      "description": "A student-led AWS-recognized community that helps students learn cloud computing, build projects, and develop career skills under faculty guidance.",
+      "keywords": [
+        "aws",
+        "cloud",
+        "amazon",
+        "devops",
+        "serverless"
+      ]
+    }
+  ],
+  "collegeBus": {
+    "totalBuses": 6,
+    "buses": [
+      {
+        "busNumber": 1,
+        "route": "Melparamb"
+      },
+      {
+        "busNumber": 2,
+        "route": "Kanhangad"
+      },
+      {
+        "busNumber": 3,
+        "route": "Kasaragod"
+      },
+      {
+        "busNumber": 4,
+        "route": "Periya"
+      },
+      {
+        "busNumber": 5,
+        "route": "Pallikara"
+      },
+      {
+        "busNumber": 6,
+        "route": "Nileshwaram"
+      }
+    ],
+    "collegeArrivalTime": "9:15 AM",
+    "routes": {
+      "kasaragodSide": {
+        "direction": "Kasaragod to College",
+        "stops": [
+          {
+            "place": "Pallikkara",
+            "time": "8:10 AM",
+            "studentRate": 11910,
+            "staffRate": 14810
+          },
+          {
+            "place": "Bekal",
+            "time": "8:15 AM",
+            "studentRate": 11180,
+            "staffRate": 13860
+          },
+          {
+            "place": "Palakunnu",
+            "time": "8:20 AM",
+            "studentRate": 10530,
+            "staffRate": 13130
+          },
+          {
+            "place": "Uduma",
+            "time": "8:25 AM",
+            "studentRate": 10060,
+            "staffRate": 12500
+          },
+          {
+            "place": "Kalanadu",
+            "time": "8:30 AM",
+            "studentRate": 9420,
+            "staffRate": 11660
+          },
+          {
+            "place": "Melparamba",
+            "time": "8:35 AM",
+            "studentRate": 8960,
+            "staffRate": 11240
+          },
+          {
+            "place": "Chaliyancode",
+            "time": "8:40 AM",
+            "studentRate": 8580,
+            "staffRate": 10710
+          },
+          {
+            "place": "Chemnad",
+            "time": "8:45 AM",
+            "studentRate": 8500,
+            "staffRate": 10290
+          },
+          {
+            "place": "Kasaragod",
+            "time": "8:50 AM",
+            "studentRate": 8400,
+            "staffRate": 10200
+          },
+          {
+            "place": "Vidya Nagar",
+            "time": "8:55 AM",
+            "studentRate": 5630,
+            "staffRate": 6930
+          },
+          {
+            "place": "Nalam Mile",
+            "time": "9:00 AM",
+            "studentRate": 4530,
+            "staffRate": 5570
+          },
+          {
+            "place": "Cherkala",
+            "time": "9:05 AM",
+            "studentRate": 3420,
+            "staffRate": 4200
+          },
+          {
+            "place": "College",
+            "time": "9:15 AM"
+          }
+        ]
+      },
+      "nileshwaramSide": {
+        "direction": "Nileshwaram to College",
+        "stops": [
+          {
+            "place": "Nileshwaram",
+            "time": "8:00 AM",
+            "studentRate": 20120,
+            "staffRate": 24990
+          },
+          {
+            "place": "Padannakkad",
+            "time": "8:05 AM",
+            "studentRate": 17910,
+            "staffRate": 22260
+          },
+          {
+            "place": "Kanhangad South",
+            "time": "8:10 AM",
+            "studentRate": 16890,
+            "staffRate": 20790
+          },
+          {
+            "place": "Kanhangad New Bus Stand",
+            "time": "8:12 AM",
+            "studentRate": 16240,
+            "staffRate": 20060
+          },
+          {
+            "place": "Kanhangad Bus Stand",
+            "time": "8:15 AM",
+            "studentRate": 15690,
+            "staffRate": 19430
+          },
+          {
+            "place": "Mavungal",
+            "time": "8:25 AM",
+            "studentRate": 15230,
+            "staffRate": 18900
+          },
+          {
+            "place": "Pullur",
+            "time": "8:30 AM",
+            "studentRate": 14030,
+            "staffRate": 17330
+          },
+          {
+            "place": "Chalingal",
+            "time": "8:35 AM",
+            "studentRate": 12100,
+            "staffRate": 15020
+          },
+          {
+            "place": "Periya",
+            "time": "8:40 AM",
+            "studentRate": 10060,
+            "staffRate": 12500
+          },
+          {
+            "place": "Periyattadukkam",
+            "time": "8:45 AM",
+            "studentRate": 8960,
+            "staffRate": 11240
+          },
+          {
+            "place": "Mailatty",
+            "time": "8:48 AM",
+            "studentRate": 7670,
+            "staffRate": 9450
+          },
+          {
+            "place": "Poinachy",
+            "time": "8:51 AM",
+            "studentRate": 7020,
+            "staffRate": 8610
+          },
+          {
+            "place": "Chattanchal",
+            "time": "8:55 AM",
+            "studentRate": 6540,
+            "staffRate": 8090
+          },
+          {
+            "place": "Bevinja",
+            "time": "9:00 AM",
+            "studentRate": 5000,
+            "staffRate": 6200
+          },
+          {
+            "place": "Cherkala",
+            "time": "9:05 AM",
+            "studentRate": 3420,
+            "staffRate": 4200
+          },
+          {
+            "place": "College",
+            "time": "9:15 AM"
+          }
+        ]
+      }
+    },
+    "feeNote": "Rates are per year. Student rate is subsidized.",
+    "keywords": [
+      "bus",
+      "transport",
+      "route",
+      "timing",
+      "fee",
+      "college bus",
+      "kasaragod",
+      "kanhangad",
+      "nileshwaram"
+    ]
+  },
+  "btechFeeStructure": {
+    "academicYear": "2025-2026",
+    "program": "B.Tech",
+    "collegeFees": {
+      "items": [
+        {
+          "description": "Tuition Fee",
+          "meritSeat": 47250,
+          "highFeeSeat": 78750,
+          "scStOec": 0,
+          "fw": 0
+        },
+        {
+          "description": "Admission Fee",
+          "meritSeat": 1000,
+          "highFeeSeat": 1000,
+          "scStOec": 1000,
+          "fw": 1000
+        },
+        {
+          "description": "Special Fee",
+          "meritSeat": 1500,
+          "highFeeSeat": 1500,
+          "scStOec": 0,
+          "fw": 1500
+        },
+        {
+          "description": "Caution Deposit",
+          "meritSeat": 5000,
+          "highFeeSeat": 5000,
+          "scStOec": 1000,
+          "fw": 5000
+        },
+        {
+          "description": "Establishment Charges",
+          "meritSeat": 2000,
+          "highFeeSeat": 2000,
+          "scStOec": 0,
+          "fw": 2000
+        },
+        {
+          "description": "Library Fees",
+          "meritSeat": 1000,
+          "highFeeSeat": 1000,
+          "scStOec": 0,
+          "fw": 1000
+        },
+        {
+          "description": "Professional Bodies Fees",
+          "meritSeat": 1000,
+          "highFeeSeat": 1000,
+          "scStOec": 0,
+          "fw": 1000
+        },
+        {
+          "description": "Online Academic Management Fees",
+          "meritSeat": 450,
+          "highFeeSeat": 450,
+          "scStOec": 0,
+          "fw": 450
+        }
+      ],
+      "totals": {
+        "total": {
+          "meritSeat": 59200,
+          "highFeeSeat": 90700,
+          "scStOec": 2000,
+          "fw": 11950
+        },
+        "alreadyPaidToEntranceCommissioner": {
+          "meritSeat": 10000,
+          "highFeeSeat": 10000,
+          "scStOec": 1000,
+          "fw": 1000
+        },
+        "balance": {
+          "meritSeat": 49200,
+          "highFeeSeat": 80700,
+          "scStOec": 1000,
+          "fw": 10950
+        }
+      }
+    },
+    "ktuFees": {
+      "items": [
+        {
+          "description": "Student Administration Fee (KTU)",
+          "meritSeat": 1050,
+          "highFeeSeat": 1050,
+          "scStOec": 0,
+          "fw": 1050
+        },
+        {
+          "description": "Arts and Sports Fee (KTU)",
+          "meritSeat": 530,
+          "highFeeSeat": 530,
+          "scStOec": 0,
+          "fw": 530
+        },
+        {
+          "description": "Examination Fee (KTU)",
+          "meritSeat": 5300,
+          "highFeeSeat": 5300,
+          "scStOec": 0,
+          "fw": 5300
+        },
+        {
+          "description": "Student's Affiliation Fee (KTU)",
+          "meritSeat": 790,
+          "highFeeSeat": 790,
+          "scStOec": 0,
+          "fw": 790
+        }
+      ],
+      "total": {
+        "meritSeat": 7670,
+        "highFeeSeat": 7670,
+        "scStOec": 0,
+        "fw": 7670
+      }
+    },
+    "netFeePayableToCollege": {
+      "meritSeat": 56870,
+      "highFeeSeat": 88370,
+      "scStOec": 1000,
+      "fw": 18620
+    },
+    "miscellaneousFees": {
+      "payableTo": "College Account",
+      "items": [
+        {
+          "description": "PTA Membership Fees",
+          "amount": 5000
+        },
+        {
+          "description": "Department Association Fee",
+          "amount": 1000
+        },
+        {
+          "description": "Career Guidance and Placement",
+          "amount": 500
+        },
+        {
+          "description": "Co-Operative Society (Kit + Identity Card)",
+          "amount": 1650
+        },
+        {
+          "description": "Sports Development Fund",
+          "amount": 250
+        },
+        {
+          "description": "Series Examination Fee",
+          "amount": 200
+        },
+        {
+          "description": "College Union Fee",
+          "amount": 1200
+        }
+      ],
+      "total": 9800
+    },
+    "hostelFee": {
+      "payableTo": "Warden's Account",
+      "bank": "SBI",
+      "ifsc": "SBIN0070880",
+      "generalCategory": [
+        {
+          "description": "Admission Fee",
+          "amount": 250
+        },
+        {
+          "description": "Mess Deposit",
+          "amount": 6000
+        },
+        {
+          "description": "Caution Deposit",
+          "amount": 2000
+        },
+        {
+          "description": "Establishment Charges",
+          "amount": 1000
+        }
+      ],
+      "scStOec": [
+        {
+          "description": "Admission Fee",
+          "amount": 250
+        },
+        {
+          "description": "Mess Deposit",
+          "amount": 0
+        },
+        {
+          "description": "Caution Deposit",
+          "amount": 1000
+        },
+        {
+          "description": "Establishment Charges",
+          "amount": 1000
+        }
+      ],
+      "total": {
+        "generalCategory": 9250,
+        "scStOec": 2250
+      }
+    },
+    "keywords": [
+      "fee",
+      "fees",
+      "tuition",
+      "cost",
+      "amount",
+      "payment",
+      "hostel fee",
+      "ktu fee",
+      "admission fee",
+      "merit",
+      "management",
+      "sc",
+      "st",
+      "oec"
+    ]
+  },
+  "btechLetFeeStructure": {
+    "academicYear": "2025-2026",
+    "program": "B.Tech",
+    "admissionType": "LET (Lateral Entry)",
+    "directorAccount": {
+      "accountNumber": "39021351548",
+      "bank": "SBI",
+      "ifsc": "SBIN0010116"
+    },
+    "collegeFees": {
+      "items": [
+        {
+          "description": "Tuition Fee",
+          "merit": 47250,
+          "fw": 0,
+          "scStOec": 0
+        },
+        {
+          "description": "Admission Fee",
+          "merit": 1000,
+          "fw": 1000,
+          "scStOec": 1000
+        },
+        {
+          "description": "Special Fee",
+          "merit": 1500,
+          "fw": 1500,
+          "scStOec": 0
+        },
+        {
+          "description": "Caution Deposit",
+          "merit": 5000,
+          "fw": 5000,
+          "scStOec": 1000
+        },
+        {
+          "description": "Establishment Charges",
+          "merit": 2000,
+          "fw": 2000,
+          "scStOec": 0
+        },
+        {
+          "description": "Library Fees",
+          "merit": 1000,
+          "fw": 1000,
+          "scStOec": 0
+        },
+        {
+          "description": "Professional Bodies Fees",
+          "merit": 1000,
+          "fw": 1000,
+          "scStOec": 0
+        },
+        {
+          "description": "Online Academic Management Fees",
+          "merit": 450,
+          "fw": 450,
+          "scStOec": 0
+        }
+      ],
+      "totals": {
+        "total": {
+          "merit": 59200,
+          "fw": 11950,
+          "scStOec": 2000
+        },
+        "alreadyPaidToDirectorLbsCentre": {
+          "merit": 10000,
+          "fw": 1000,
+          "scStOec": 1000
+        },
+        "netFeePayableToCollege": {
+          "merit": 49200,
+          "fw": 10950,
+          "scStOec": 1000
+        }
+      }
+    },
+    "ktuFees": {
+      "items": [
+        {
+          "description": "Student's Administration Fee (KTU)",
+          "merit": 1050,
+          "fw": 1050,
+          "scStOec": 0
+        },
+        {
+          "description": "Arts and Sports Fee (KTU)",
+          "merit": 530,
+          "fw": 530,
+          "scStOec": 0
+        },
+        {
+          "description": "Examination Fee (KTU)",
+          "merit": 5300,
+          "fw": 5300,
+          "scStOec": 0
+        },
+        {
+          "description": "Student's Affiliation Fee (KTU)",
+          "merit": 790,
+          "fw": 790,
+          "scStOec": 0
+        }
+      ],
+      "total": {
+        "merit": 7670,
+        "fw": 7670,
+        "scStOec": 0
+      }
+    },
+    "miscellaneousFees": {
+      "items": [
+        {
+          "description": "PTA Membership Fees",
+          "amount": 5000
+        },
+        {
+          "description": "Department Association Fee",
+          "amount": 1000
+        },
+        {
+          "description": "Career Guidance and Placement",
+          "amount": 500
+        },
+        {
+          "description": "Co-Operative Society (Kit + Identity Card)",
+          "amount": 1650
+        },
+        {
+          "description": "Sports Development Fund",
+          "amount": 250
+        },
+        {
+          "description": "Series Examination Fee",
+          "amount": 200
+        },
+        {
+          "description": "College Union Fee",
+          "amount": 1200
+        }
+      ],
+      "total": 9800
+    },
+    "hostelFee": {
+      "wardenAccount": {
+        "accountNumber": "39153334724",
+        "bank": "SBI",
+        "ifsc": "SBIN0070880"
+      },
+      "generalCategory": [
+        {
+          "description": "Admission Fee",
+          "amount": 250
+        },
+        {
+          "description": "Mess Deposit",
+          "amount": 6000
+        },
+        {
+          "description": "Caution Deposit",
+          "amount": 2000
+        },
+        {
+          "description": "Establishment Charges",
+          "amount": 1000
+        }
+      ],
+      "scStOec": [
+        {
+          "description": "Admission Fee",
+          "amount": 250
+        },
+        {
+          "description": "Mess Deposit",
+          "amount": 0
+        },
+        {
+          "description": "Caution Deposit",
+          "amount": 1000
+        },
+        {
+          "description": "Establishment Charges",
+          "amount": 1000
+        }
+      ],
+      "total": {
+        "generalCategory": 9250,
+        "scStOec": 2250
+      }
+    },
+    "keywords": [
+      "let",
+      "lateral entry",
+      "diploma",
+      "fee",
+      "lateral",
+      "polytechnic"
+    ]
+  },
+  "mtechFeeStructure": {
+    "academicYear": "2025-2026",
+    "program": "M.Tech",
+    "collegeFees": {
+      "items": [
+        {
+          "description": "Tuition Fee",
+          "amount": 24000
+        },
+        {
+          "description": "Admission Fee",
+          "amount": 1000
+        },
+        {
+          "description": "Special Fee",
+          "amount": 3500
+        },
+        {
+          "description": "Caution Deposit",
+          "amount": 5000
+        },
+        {
+          "description": "Establishment Charges",
+          "amount": 2000
+        },
+        {
+          "description": "Library Fees",
+          "amount": 1000
+        },
+        {
+          "description": "Professional Bodies Fees",
+          "amount": 1000
+        },
+        {
+          "description": "Online Academic Management Fees",
+          "amount": 450
+        }
+      ],
+      "total": 37950
+    },
+    "ktuFees": {
+      "items": [
+        {
+          "description": "Student's Administration Fee (KTU)",
+          "amount": 1050
+        },
+        {
+          "description": "Arts and Sports Fee (KTU)",
+          "amount": 530
+        },
+        {
+          "description": "Examination Fee (KTU)",
+          "amount": 4300
+        },
+        {
+          "description": "Student's Affiliation Fee (KTU)",
+          "amount": 1050
+        }
+      ],
+      "total": 6930
+    },
+    "netFeePayableToCollege": 44880,
+    "keywords": [
+      "mtech",
+      "m.tech",
+      "postgraduate",
+      "pg",
+      "masters",
+      "fee"
+    ]
   }
 }

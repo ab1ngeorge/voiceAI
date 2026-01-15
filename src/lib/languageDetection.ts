@@ -153,16 +153,30 @@ export function detectLanguage(text: string): DetectedLanguage {
         }
     }
 
-    // Check for Manglish sentence patterns
+    // Check for Manglish sentence patterns - ENHANCED
     const manglishPatterns = [
         /enthu\s+.+\s*\??/i,           // "enthu ... ?"
+        /entha\s+.+\s*\??/i,           // "entha ... ?"
         /evide\s+.+/i,                  // "evide ..."
+        /evidey?\s*.+/i,                // "evidey ..."
         /engane\s+.+/i,                 // "engane ..."
         /ariyumo\s*\??/i,               // "ariyumo?"
+        /ariyuo\s*\??/i,                // "ariyuo?"
         /.+\s+aanu\s*\??/i,             // "... aanu?"
+        /.+\s+aan\s*\??/i,              // "... aan?"
         /.+\s+undu\s*\??/i,             // "... undu?"
+        /.+\s+undo\s*\??/i,             // "... undo?"
         /.+\s+entha(nu)?\s*\??/i,       // "... enthanu?"
         /.+il\s+.+/i,                   // "...il ..." (Malayalam locative)
+        /.+inu\s+.+/i,                  // "...inu ..." (Malayalam dative)
+        /njan\s+.+/i,                   // "njan ..." (I ...)
+        /enikku?\s+.+/i,                // "enikku ..." (to me ...)
+        /namukku?\s+.+/i,               // "namukku ..." (to us ...)
+        /ningal\s+.+/i,                 // "ningal ..." (you ...)
+        /.+\s+cheyyumo\s*\??/i,         // "... cheyyumo?"
+        /.+\s+kittumo\s*\??/i,          // "... kittumo?"
+        /.+\s+venam\s*/i,               // "... venam"
+        /.+\s+vendathu\s*/i,            // "... vendathu"
     ];
 
     for (const pattern of manglishPatterns) {
@@ -171,14 +185,30 @@ export function detectLanguage(text: string): DetectedLanguage {
         }
     }
 
-    // Decision logic
-    // If manglish score is significantly higher, it's likely Manglish
-    if (manglishScore >= 2 && manglishScore > englishScore) {
+    // Additional: Check if query ends with common Manglish question markers
+    if (/[oO]\s*\?*$/.test(normalizedText) && normalizedText.length > 5) {
+        // Ends with 'o' which is common in Manglish questions (undo?, ariyumo?)
+        manglishScore += 0.5;
+    }
+
+    // Decision logic - MANGLISH PRIORITY
+    // Strong Manglish indicators
+    if (manglishScore >= 1.5 && manglishScore > englishScore) {
         return 'manglish';
     }
 
-    // Default to English
-    return 'en';
+    // If scores are close, prefer Manglish (our primary use case)
+    if (manglishScore >= 1 && manglishScore >= englishScore * 0.7) {
+        return 'manglish';
+    }
+
+    // Only return English if there's clear English dominance
+    if (englishScore > manglishScore * 1.5 && englishScore >= 2) {
+        return 'en';
+    }
+
+    // Default to Manglish (main focus for voice input)
+    return 'manglish';
 }
 
 /**
@@ -190,4 +220,3 @@ export function getResponseLanguage(detectedLang: DetectedLanguage): 'en' | 'ml'
     // Return the same language for response - AI will respond appropriately
     return detectedLang;
 }
-

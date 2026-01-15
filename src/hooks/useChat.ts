@@ -90,7 +90,7 @@ const initialState: ChatState = {
     messages: [],
     isLoading: false,
     error: null,
-    language: 'en',
+    language: 'manglish', // Default to Manglish for voice input
 };
 
 // Call Gemini API for human-like response
@@ -100,12 +100,33 @@ async function callGeminiAPI(userMessage: string, context: string, language: str
         return '';
     }
 
-    // Map language code to full instruction
-    const languageInstruction = language === 'ml'
-        ? 'RESPOND ONLY IN MALAYALAM SCRIPT (മലയാളത്തിൽ മാത്രം മറുപടി നൽകുക)'
-        : language === 'manglish'
-            ? 'RESPOND IN MANGLISH (romanized Malayalam like "athe, hostel undu")'
-            : 'RESPOND IN ENGLISH';
+    // Map language code to detailed instruction with examples
+    let languageInstruction = '';
+
+    if (language === 'ml') {
+        languageInstruction = `🚨 CRITICAL: RESPOND ONLY IN MALAYALAM SCRIPT (മലയാളം)
+        
+DO NOT use English. DO NOT use Manglish. ONLY Malayalam script like: അതെ, ഞങ്ങൾ, ഉണ്ട്, ഹോസ്റ്റൽ
+
+Example response format:
+"അതെ, ഞങ്ങളുടെ കോളേജിൽ ഹോസ്റ്റൽ സൗകര്യം ഉണ്ട്. ആൺകുട്ടികൾക്കും പെൺകുട്ടികൾക്കും പ്രത്യേകം ഹോസ്റ്റലുകൾ ഉണ്ട്."
+
+Use conversational Malayalam phrases: "അതെ...", "തീർച്ചയായും...", "നല്ല ചോദ്യം!", "പിന്നെ എന്തെങ്കിലും അറിയണോ?"`;
+    } else if (language === 'manglish') {
+        languageInstruction = `🚨 CRITICAL: RESPOND IN MANGLISH (Malayalam written in English letters)
+
+DO NOT use Malayalam script. DO NOT use pure English. Use Manglish like: "Athe", "undu", "illa", "nalla", "collegil"
+
+Example response format:
+"Athe, namude college il hostel facility undu. Boys num girls num separate hostels aanu. Nalla facilities okke undu!"
+
+Use Manglish phrases: "Athe...", "Pinne...", "Sherikkum...", "Nalla chodyam!", "Koode enthenkilum ariyano?"`;
+    } else {
+        languageInstruction = `RESPOND IN CONVERSATIONAL ENGLISH
+        
+Use natural, friendly English like a helpful senior student. Be warm and approachable.
+Example: "Yes! We do have hostel facilities here. There are separate hostels for boys and girls with good amenities."`;
+    }
 
     try {
         const response = await fetch(`${GEMINI_ENDPOINT}?key=${GEMINI_API_KEY}`, {

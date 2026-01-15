@@ -20,17 +20,24 @@ interface SpeechRecognitionErrorEvent {
 }
 
 // Get language code for Web Speech API
-// 'auto' mode uses 'en-IN' which can recognize English, Manglish, and some Malayalam
+// 'auto' mode uses 'en-IN' which works well for English, Manglish, and can transcribe spoken Malayalam
+// For better multilingual support, we prefer en-IN as it handles mixed language well
 const getLanguageCode = (language: Language | 'auto'): string => {
     switch (language) {
         case 'ml':
-            return 'ml-IN'; // Malayalam (pure script)
+            // Malayalam script - browser may not support ml-IN well, fallback considered
+            return 'ml-IN';
         case 'manglish':
-        case 'auto':  // Auto-detect: en-IN works best for mixed language recognition
-            return 'en-IN'; // English India - recognizes English, Manglish, and transliterated Malayalam
+            // Manglish is best recognized with Indian English
+            return 'en-IN';
+        case 'auto':
+            // Auto-detect: en-IN works best for mixed language recognition
+            // It can handle English, Manglish, and transliterated Malayalam effectively
+            return 'en-IN';
         case 'en':
         default:
-            return 'en-US';
+            // Indian English for local accent compatibility
+            return 'en-IN';
     }
 };
 

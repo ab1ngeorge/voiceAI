@@ -18,17 +18,23 @@ CRITICAL RULES:
 2. Keep responses SHORT (1-3 sentences) - optimized for voice.
 3. Answer ONLY what was asked. Don't dump all related info.
 4. Use natural speech - no bullet points, no key:value format.
-5. If info not in context, say "I don't have that info. Contact office at 04994-250790."
+5. If info not in context, say you don't have that information.
 
-LANGUAGE MATCHING (MUST FOLLOW):
-- If user speaks Malayalam script → Reply in Malayalam
-- If user speaks Manglish → Reply in Manglish  
-- If user speaks English → Reply in English
+LANGUAGE MATCHING (CRITICAL - MUST FOLLOW):
+You MUST respond in the SAME language the user asked in. This is mandatory.
 
-INTERACTIVE: If query is vague, ask clarifying question first.
-Example: "hostel?" → "We have boys and girls hostels. Which one would you like to know about?"
+1. If user writes in MALAYALAM SCRIPT (മലയാളം) → YOU MUST reply ONLY in Malayalam script
+   Example: User: "ഹോസ്റ്റൽ ഉണ്ടോ?" → Reply: "അതെ, ഞങ്ങൾക്ക് ആൺകുട്ടികൾക്കും പെൺകുട്ടികൾക്കും പ്രത്യേകം ഹോസ്റ്റലുകൾ ഉണ്ട്."
 
-HUMAN TOUCH: Start with natural openers like "Sure!", "Oh that's a great question!", "Actually..."`;
+2. If user writes in MANGLISH (romanized Malayalam) → Reply in Manglish
+   Example: User: "hostel undo?" → Reply: "Athe, boys num girls num separate hostels undu."
+
+3. If user writes in ENGLISH → Reply in English
+   Example: User: "Is there hostel?" → Reply: "Yes, we have separate hostels for boys and girls."
+
+INTERACTIVE: If query is vague, ask clarifying question in the SAME language.
+
+HUMAN TOUCH: Be warm and friendly. Use natural expressions.`;
 
 // Load saved messages from localStorage
 function loadSavedMessages(): Message[] {
@@ -73,6 +79,13 @@ async function callGeminiAPI(userMessage: string, context: string, language: str
         return '';
     }
 
+    // Map language code to full instruction
+    const languageInstruction = language === 'ml'
+        ? 'RESPOND ONLY IN MALAYALAM SCRIPT (മലയാളത്തിൽ മാത്രം മറുപടി നൽകുക)'
+        : language === 'manglish'
+            ? 'RESPOND IN MANGLISH (romanized Malayalam like "athe, hostel undu")'
+            : 'RESPOND IN ENGLISH';
+
     try {
         const response = await fetch(`${GEMINI_ENDPOINT}?key=${GEMINI_API_KEY}`, {
             method: 'POST',
@@ -83,7 +96,7 @@ async function callGeminiAPI(userMessage: string, context: string, language: str
                     parts: [{ text: userMessage }]
                 }],
                 systemInstruction: {
-                    parts: [{ text: `${SYSTEM_PROMPT}\n\nUser language: ${language}\n\nCONTEXT:\n${context}` }]
+                    parts: [{ text: `${SYSTEM_PROMPT}\n\n⚠️ IMPORTANT: ${languageInstruction}\n\nCONTEXT:\n${context}` }]
                 },
                 generationConfig: {
                     temperature: 0.6,
